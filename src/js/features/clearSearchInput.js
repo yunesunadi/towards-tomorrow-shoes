@@ -14,6 +14,7 @@ const handle = (input, clearBtn) => {
     clearBtn.addEventListener("click", () => {
         input.value = "";
         clearBtn.classList.remove("show");
+        input.focus();
     });
 };
 
