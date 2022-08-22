@@ -5,14 +5,31 @@ html {
 }
 
 body {
-    font-size: rem(16);
-    font-family: $font-family-primary;
+    font-size: rem(14);
+    font-family: $font-family;
     font-weight: weight("regular");
-    color: color("primary");
-    background-color: color("background");
+    color: color("secondary");
+    background-color: color("primary");
     padding: 0;
+    overflow: hidden;
+
+    @include media-query("medium") {
+        font-size: rem(16);
+    }
 }
 
 a {
     text-decoration: none;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+input {
+    outline: none;
 }

@@ -1,0 +1,240 @@
+@use "../abstracts" as *;
+
+.header-nav {
+    $parent: &;
+
+    padding: rem(15) 0;
+
+    &__logo {
+        font-size: rem(18);
+        font-weight: weight("bold");
+        color: color("secondary");
+
+        @include media-query("medium") {
+            font-size: rem(22);
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--center {
+            @include overlay;
+
+            transform: translateX(-100%);
+            padding: rem(10) rem(20);
+
+            @include media-query("medium") {
+                all: unset;
+            }
+
+            #{$parent}__close {
+                $size: rem(7);
+
+                display: inline;
+                float: right;
+                margin-right: -$size;
+                padding: 0 $size;
+                color: color("secondary");
+
+                @include media-query("medium") {
+                    display: none;
+                }
+            }
+
+            #{$parent}__items {
+                margin-top: rem(30);
+
+                @include media-query("medium") {
+                    display: flex;
+                    gap: rem(40);
+                    margin-top: 0;
+                }
+            }
+
+            #{$parent}__item {
+                @include media-query("medium") {
+                    position: relative;
+                }
+            }
+
+            #{$parent}__checkbox {
+                display: none;
+
+                &:checked + div #{$parent}__caret {
+                    transform: rotate(180deg);
+                }
+            }
+
+            #{$parent}__caret {
+                display: inline;
+                transition: all 0.3s ease-out;
+
+                @include media-query("medium") {
+                    display: none;
+                }
+            }
+
+            .jc-space-between {
+                display: flex;
+                justify-content: space-between;
+
+                @include media-query("medium") {
+                    all: unset;
+                }
+            }
+        }
+
+        &--right {
+            display: flex;
+            align-items: center;
+            gap: rem(7);
+
+            @include media-query("medium") {
+                gap: rem(10);
+            }
+
+            #{$parent}__bars {
+                @include media-query("medium") {
+                    display: none;
+                }
+            }
+
+            #{$parent}__search--mobile {
+                #{$parent}__search-overlay {
+                    @include overlay;
+
+                    transform: translateX(100%);
+                }
+
+                #{$parent}__search-form {
+                    @extend %search-form;
+
+                    gap: rem(5);
+                    padding: rem(8) rem(10);
+                    background-color: color("light-grey");
+                }
+
+                #{$parent}__caret {
+                    font-size: rem(16);
+                }
+
+                #{$parent}__search-input {
+                    @extend %search-input;
+                }
+
+                #{$parent}__search-close {
+                    display: none;
+
+                    &.show {
+                        display: block;
+                    }
+                }
+
+                #{$parent}__matched-items {
+                    margin: rem(20) rem(10);
+                }
+
+                #{$parent}__matched-item {
+                    display: flex;
+                    gap: rem(15);
+                }
+
+                #{$parent}__matched-img {
+                    width: rem(130);
+                    height: rem(100);
+                    object-fit: cover;
+                }
+
+                #{$parent}__see-results {
+                    margin-top: rem(20);
+                }
+
+                @include media-query("medium") {
+                    display: none;
+                }
+            }
+
+            #{$parent}__search--desktop {
+                display: none;
+
+                @include media-query("medium") {
+                    display: block;
+                }
+
+                #{$parent}__search-form {
+                    @extend %search-form;
+
+                    width: rem(180);
+                    padding: rem(3) rem(8);
+                    background-color: color("light-grey");
+                    border: rem(1) solid color("secondary");
+                }
+
+                #{$parent}__search-input {
+                    @extend %search-input;
+                }
+
+                #{$parent}__search-glass {
+                    cursor: pointer;
+                }
+
+                #{$parent}__search-close {
+                    display: none;
+                    margin: 0 rem(8) 0 rem(5);
+                    cursor: pointer;
+
+                    &.show {
+                        display: block;
+                    }
+                }
+
+                #{$parent}__matched-items {
+                    position: absolute;
+                    top: rem(50);
+                    right: 0;
+                    width: 40%;
+                    background-color: color("light-grey");
+                    padding: rem(20);
+                }
+
+                .grid-col-2 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: rem(20);
+                }
+
+                #{$parent}__matched-item {
+                    display: flex;
+                    gap: rem(15);
+                }
+
+                #{$parent}__matched-img {
+                    width: rem(130);
+                    height: rem(100);
+                    object-fit: cover;
+                }
+
+                #{$parent}__see-results {
+                    margin-top: rem(20);
+                }
+            }
+        }
+    }
+
+    &__item {
+        display: block;
+        cursor: initial;
+    }
+
+    &__link {
+        label {
+            cursor: pointer;
+        }
+
+        font-weight: weight("bold");
+        color: color("secondary");
+    }
+}

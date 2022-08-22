@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+
+.header-nav {
+    $parent: &;
+
+    &__dropdown-list {
+        @include mobile-dropdown;
+
+        @include media-query("medium") {
+            @include desktop-dropdown;
+
+            left: rem(-10);
+        }
+
+        &--flex {
+            @include mobile-dropdown;
+
+            display: flex;
+            gap: rem(50);
+
+            @include media-query("medium") {
+                @include desktop-dropdown;
+
+                gap: rem(30);
+                left: rem(-60);
+            }
+
+            @include dropdown-checkbox;
+            @include dropdown-hover;
+        }
+
+        @include dropdown-checkbox;
+
+        @include dropdown-hover;
+    }
+
+    &__dropdown-title {
+        font-weight: weight("medium");
+    }
+
+    &__dropdown-link {
+        display: block;
+        color: color("secondary");
+
+        &:hover,
+        &:focus {
+            @include media-query("medium") {
+                text-decoration: underline;
+            }
+        }
+    }
+}
