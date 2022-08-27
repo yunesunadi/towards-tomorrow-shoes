@@ -46,6 +46,7 @@
     width: 100%;
     height: 100%;
     background-color: color("primary");
+    transform: translateX(-100%);
     transition: transform 0.3s ease-out;
 
     &.show {
@@ -61,27 +62,38 @@
 
 @mixin desktop-dropdown {
     position: absolute;
+    z-index: 1;
     overflow: unset;
     opacity: 0;
     visibility: hidden;
     max-height: rem(150);
     border: rem(1) solid rgba(color("secondary"), 0.3);
+    background-color: color("primary");
     border-radius: rem(5);
     padding: rem(10);
 }
 
 @mixin dropdown-checkbox {
-    .header-nav__checkbox:checked ~ & {
+    .nav__checkbox:checked ~ & {
         max-height: rem(150);
     }
 }
 
 @mixin dropdown-hover {
     @include media-query("medium") {
-        .header-nav__item:hover &,
-        .header-nav__item:focus & {
+        .nav__item:hover &,
+        .nav__item:focus & {
             opacity: 1;
             visibility: visible;
         }
+    }
+}
+
+@mixin carousel-hover {
+    color: rgba(color("light-grey"), 0.6);
+
+    &:hover,
+    &:focus {
+        color: color("primary");
     }
 }

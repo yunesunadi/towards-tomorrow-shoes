@@ -1,0 +1,97 @@
+@use "../abstracts" as *;
+@use "../base/animations" as *;
+
+.carousel {
+    position: relative;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+
+        @include media-query("medium") {
+            height: 85vh;
+        }
+
+        &.slide-left {
+            animation: slideLeft 1s ease-out;
+        }
+
+        &.slide-right {
+            animation: slideRight 1s ease-out;
+        }
+    }
+
+    &__title {
+        font-size: rem(20);
+
+        @include media-query("medium") {
+            font-size: rem(30);
+        }
+    }
+
+    &__text {
+        margin-bottom: rem(35);
+
+        @include media-query("medium") {
+            margin-bottom: rem(45);
+        }
+    }
+
+    &__shop-btn {
+        padding: rem(10) rem(8);
+        color: color("primary");
+        background-color: color("secondary");
+
+        @include media-query("medium") {
+            padding: rem(15);
+        }
+    }
+
+    &__btns > * {
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        font-size: rem(20);
+
+        @include carousel-hover;
+
+        @include media-query("medium") {
+            font-size: rem(25);
+        }
+    }
+
+    &__next-btn {
+        right: 0;
+    }
+
+    &__indicators {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        bottom: rem(10);
+        transform: translateX(-50%);
+
+        @include media-query("medium") {
+            display: flex;
+            gap: rem(10);
+        }
+    }
+
+    &__indicator {
+        cursor: pointer;
+        font-size: rem(25);
+
+        @include carousel-hover;
+
+        &.active {
+            color: color("primary");
+        }
+    }
+}

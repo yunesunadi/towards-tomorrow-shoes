@@ -1,8 +1,6 @@
 @use "../abstracts" as *;
 
-.header-nav {
-    $parent: &;
-
+.nav {
     padding: rem(15) 0;
 
     &__logo {
@@ -23,14 +21,13 @@
         &--center {
             @include overlay;
 
-            transform: translateX(-100%);
             padding: rem(10) rem(20);
 
             @include media-query("medium") {
                 all: unset;
             }
 
-            #{$parent}__close {
+            .nav__close {
                 $size: rem(7);
 
                 display: inline;
@@ -44,7 +41,7 @@
                 }
             }
 
-            #{$parent}__items {
+            .nav__items {
                 margin-top: rem(30);
 
                 @include media-query("medium") {
@@ -54,21 +51,21 @@
                 }
             }
 
-            #{$parent}__item {
+            .nav__item {
                 @include media-query("medium") {
                     position: relative;
                 }
             }
 
-            #{$parent}__checkbox {
+            .nav__checkbox {
                 display: none;
 
-                &:checked + div #{$parent}__caret {
+                &:checked + div .nav__caret {
                     transform: rotate(180deg);
                 }
             }
 
-            #{$parent}__caret {
+            .nav__caret {
                 display: inline;
                 transition: all 0.3s ease-out;
 
@@ -96,20 +93,18 @@
                 gap: rem(10);
             }
 
-            #{$parent}__bars {
+            .nav__bars {
                 @include media-query("medium") {
                     display: none;
                 }
             }
 
-            #{$parent}__search--mobile {
-                #{$parent}__search-overlay {
+            .nav__search--mobile {
+                .nav__search-overlay {
                     @include overlay;
-
-                    transform: translateX(100%);
                 }
 
-                #{$parent}__search-form {
+                .nav__search-form {
                     @extend %search-form;
 
                     gap: rem(5);
@@ -117,15 +112,15 @@
                     background-color: color("light-grey");
                 }
 
-                #{$parent}__caret {
+                .nav__caret {
                     font-size: rem(16);
                 }
 
-                #{$parent}__search-input {
+                .nav__search-input {
                     @extend %search-input;
                 }
 
-                #{$parent}__search-close {
+                .nav__search-close {
                     display: none;
 
                     &.show {
@@ -133,22 +128,22 @@
                     }
                 }
 
-                #{$parent}__matched-items {
+                .nav__matched-items {
                     margin: rem(20) rem(10);
                 }
 
-                #{$parent}__matched-item {
+                .nav__matched-item {
                     display: flex;
                     gap: rem(15);
                 }
 
-                #{$parent}__matched-img {
+                .nav__matched-img {
                     width: rem(130);
                     height: rem(100);
                     object-fit: cover;
                 }
 
-                #{$parent}__see-results {
+                .nav__see-results {
                     margin-top: rem(20);
                 }
 
@@ -157,14 +152,14 @@
                 }
             }
 
-            #{$parent}__search--desktop {
+            .nav__search--desktop {
                 display: none;
 
                 @include media-query("medium") {
                     display: block;
                 }
 
-                #{$parent}__search-form {
+                .nav__search-form {
                     @extend %search-form;
 
                     width: rem(180);
@@ -173,15 +168,15 @@
                     border: rem(1) solid color("secondary");
                 }
 
-                #{$parent}__search-input {
+                .nav__search-input {
                     @extend %search-input;
                 }
 
-                #{$parent}__search-glass {
+                .nav__search-glass {
                     cursor: pointer;
                 }
 
-                #{$parent}__search-close {
+                .nav__search-close {
                     display: none;
                     margin: 0 rem(8) 0 rem(5);
                     cursor: pointer;
@@ -191,12 +186,14 @@
                     }
                 }
 
-                #{$parent}__matched-items {
+                .nav__matched-items {
+                    // display: none;
                     position: absolute;
+                    z-index: 1;
                     top: rem(50);
                     right: 0;
                     width: 40%;
-                    background-color: color("light-grey");
+                    background-color: color("primary");
                     padding: rem(20);
                 }
 
@@ -206,18 +203,18 @@
                     gap: rem(20);
                 }
 
-                #{$parent}__matched-item {
+                .nav__matched-item {
                     display: flex;
                     gap: rem(15);
                 }
 
-                #{$parent}__matched-img {
+                .nav__matched-img {
                     width: rem(130);
                     height: rem(100);
                     object-fit: cover;
                 }
 
-                #{$parent}__see-results {
+                .nav__see-results {
                     margin-top: rem(20);
                 }
             }

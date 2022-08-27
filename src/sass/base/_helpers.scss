@@ -6,9 +6,19 @@
         left: auto;
         right: auto;
     }
+    width: 100%;
+}
+
+.sub-container {
+    max-width: $max-width;
+    margin: {
+        left: auto;
+        right: auto;
+    }
     width: 90%;
 
     @include media-query("medium") {
+        width: 95%;
         position: relative;
     }
 }

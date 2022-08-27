@@ -1,9 +1,7 @@
 @use "../abstracts" as *;
 
-.header-nav {
-    $parent: &;
-
-    &__dropdown-list {
+.nav__dropdown {
+    &-list {
         @include mobile-dropdown;
 
         @include media-query("medium") {
@@ -34,11 +32,11 @@
         @include dropdown-hover;
     }
 
-    &__dropdown-title {
+    &-title {
         font-weight: weight("medium");
     }
 
-    &__dropdown-link {
+    &-link {
         display: block;
         color: color("secondary");
 
