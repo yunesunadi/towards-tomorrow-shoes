@@ -11,7 +11,7 @@ body {
     color: color("secondary");
     background-color: color("primary");
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 
     @include media-query("medium") {
         font-size: rem(16);
