@@ -1,2 +1,3 @@
-import "../components/header.js";
-import "../components/carousel.js";
+import "../components/header";
+import "../components/carousel";
+import "../components/productSlider";

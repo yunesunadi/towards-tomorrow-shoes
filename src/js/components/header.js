@@ -1,3 +1,3 @@
-import "../features/renderHeader.js";
-import "../features/toggleOverlay.js";
-import "../features/clearSearchInput.js";
+import "../render/header";
+import "../features/toggleOverlay";
+import "../features/clearSearchInput";
