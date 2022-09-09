@@ -1,3 +1,5 @@
+import getElement from "../utilities/getElement";
+
 const data = [
     {
         backgroundImage:
@@ -22,12 +24,12 @@ const data = [
     },
 ];
 
-const carouselItem = document.querySelector(".carousel-item");
-const carouselTitle = document.querySelector(".title");
-const carouselText = document.querySelector(".text");
-const prevBtn = document.querySelector(".prev-btn");
-const nextBtn = document.querySelector(".next-btn");
-const indicators = document.querySelector(".indicators");
+const carouselItem = getElement(".carousel .item");
+const carouselTitle = getElement(".carousel .title");
+const carouselText = getElement(".carousel .text");
+const prevBtn = getElement(".carousel .prev-btn");
+const nextBtn = getElement(".carousel .next-btn");
+const indicators = getElement(".carousel .indicators");
 let currentItem = 0;
 
 const displayCarousel = () => {
@@ -92,7 +94,7 @@ window.addEventListener("DOMContentLoaded", () => {
     activateIndicator();
 });
 
-prevBtn.addEventListener("click", (e) => {
+prevBtn.addEventListener("click", () => {
     slideRight();
 });
 
