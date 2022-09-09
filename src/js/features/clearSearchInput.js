@@ -1,7 +1,9 @@
-const mobileInput = document.querySelector(".mobile .input");
-const mobileClearBtn = document.querySelector(".mobile .clear-btn");
-const desktopInput = document.querySelector(".desktop .input");
-const desktopClearBtn = document.querySelector(".desktop .clear-btn");
+import getElement from "../utilities/getElement";
+
+const mobileInput = getElement(".mobile .input");
+const mobileClearBtn = getElement(".mobile .clear-btn");
+const desktopInput = getElement(".desktop .input");
+const desktopClearBtn = getElement(".desktop .clear-btn");
 
 const handle = (input, clearBtn) => {
     input.addEventListener("keyup", () => {

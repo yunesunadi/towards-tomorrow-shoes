@@ -1,12 +1,15 @@
-const openMenuBtn = document.querySelector(".open-menu-btn");
-const closeMenuBtn = document.querySelector(".close-menu-btn");
-const menuOverlay = document.querySelector(".menu-overlay");
-const openSearchBtn = document.querySelector(".open-search-btn");
-const closeSearchBtn = document.querySelector(".close-search-btn");
-const searchOverlay = document.querySelector(".search-overlay");
+import getElement from "../utilities/getElement";
+
+const openMenuBtn = getElement(".open-menu-btn");
+const closeMenuBtn = getElement(".close-menu-btn");
+const menuOverlay = getElement(".menu-overlay");
+const openSearchBtn = getElement(".open-search-btn");
+const closeSearchBtn = getElement(".close-search-btn");
+const searchOverlay = getElement(".search-overlay");
 
 const handleClick = (btn, overlay) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+        e.preventDefault();
         if (overlay === "menu") {
             menuOverlay.classList.toggle("show");
         } else {
