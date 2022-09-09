@@ -39,7 +39,7 @@
 }
 
 @mixin overlay {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -95,5 +95,22 @@
     &:hover,
     &:focus {
         color: color("primary");
+    }
+}
+
+@mixin section {
+    padding: rem(20) 0;
+
+    @include media-query("medium") {
+        padding: rem(25) 0;
+    }
+}
+
+@mixin section-title {
+    font-size: rem(18);
+    margin-bottom: rem(15);
+
+    @include media-query("medium") {
+        font-size: rem(20);
     }
 }

@@ -1,0 +1,62 @@
+@use "../abstracts" as *;
+
+.product {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: color("light-grey") color("primary");
+
+    &::-webkit-scrollbar {
+        height: rem(10);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: color("light-grey");
+        border-radius: 30px;
+    }
+
+    &__item-link {
+        color: color("secondary");
+
+        &:not(:last-child) {
+            padding-right: rem(12);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    &__item {
+        width: rem(300);
+
+        @include media-query("medium") {
+            width: rem(290);
+        }
+    }
+
+    &__img-container {
+        position: relative;
+    }
+
+    &__img {
+        width: 100%;
+        height: rem(250);
+    }
+
+    &__wishlist {
+        cursor: default;
+        position: absolute;
+        top: rem(12);
+        right: rem(12);
+        font-size: rem(18);
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        padding: rem(5) rem(8) rem(20);
+    }
+}

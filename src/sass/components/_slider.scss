@@ -1,0 +1,38 @@
+@use "../abstracts" as *;
+
+.slider {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: rem(15);
+
+    &__btn {
+        cursor: pointer;
+        padding: rem(10) rem(16);
+        border: none;
+        border-radius: 50%;
+        background-color: color("light-grey");
+
+        @include media-query("medium") {
+            padding: rem(12) rem(18.5);
+        }
+
+        &:hover,
+        &:focus {
+            outline: rem(2) solid color("secondary");
+        }
+
+        & + & {
+            margin-left: rem(5);
+        }
+
+        &.disable {
+            cursor: default;
+            background-color: #f4f4f4;
+
+            &:hover,
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

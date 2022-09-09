@@ -1,21 +1,12 @@
 @use "../abstracts" as *;
 
 .by-category {
-    padding: rem(20) 0;
-
-    @include media-query("medium") {
-        padding: rem(25) 0;
-    }
+    @include section;
 }
 
 .category {
     &__title {
-        font-size: rem(18);
-        margin-bottom: rem(15);
-
-        @include media-query("medium") {
-            font-size: rem(20);
-        }
+        @include section-title;
     }
 
     &__items {
@@ -67,5 +58,13 @@
         left: rem(20);
         bottom: rem(15);
         color: color("secondary");
+    }
+}
+
+.popular-now {
+    @include section;
+
+    .title {
+        @include section-title;
     }
 }
