@@ -68,3 +68,48 @@
         @include section-title;
     }
 }
+
+.by-brand {
+    @include section;
+}
+
+.brand {
+    &__title {
+        @include section-title;
+    }
+
+    &__logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: rem(10);
+
+        @include media-query("medium") {
+            gap: rem(15);
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    &__logo-container {
+        outline: rem(1) solid color("secondary");
+        padding: rem(20) 0;
+        background-color: color("light-grey");
+
+        @include media-query("medium") {
+            padding: rem(35) 0;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: rgba(color("secondary"), 0.3);
+        }
+    }
+
+    &__logo {
+        width: rem(90);
+        margin: 0 auto;
+
+        @include media-query("medium") {
+            width: rem(110);
+        }
+    }
+}
