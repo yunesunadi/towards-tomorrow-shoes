@@ -113,3 +113,44 @@
         }
     }
 }
+
+.cta {
+    @include section;
+    background-color: color("light-grey");
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include media-query(rem(500)) {
+            justify-content: center;
+            gap: rem(20);
+        }
+    }
+
+    &__text {
+        font-size: rem(16);
+        width: 75%;
+
+        @include media-query(rem(500)) {
+            font-size: rem(18);
+            width: auto;
+        }
+    }
+
+    &__btn {
+        display: inline-block;
+        height: rem(30);
+        line-height: rem(30);
+        padding: 0 rem(10);
+        color: color("primary");
+        background-color: color("secondary");
+
+        @include media-query(rem(500)) {
+            height: rem(35);
+            line-height: rem(35);
+            padding: 0 rem(13);
+        }
+    }
+}
