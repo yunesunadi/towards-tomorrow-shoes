@@ -1,0 +1,121 @@
+@use "../abstracts" as *;
+
+.footer {
+    @include section;
+    background-color: color("secondary");
+
+    &__lists {
+        display: grid;
+        grid-template-areas:
+            "get-help info"
+            "about-tts social-media"
+            "copyright copyright";
+        justify-content: space-between;
+        gap: rem(15) rem(20);
+
+        @include media-query(rem(600)) {
+            grid-template-areas:
+                "get-help about-tts info"
+                ". . social-media"
+                "copyright copyright copyright";
+        }
+
+        @include media-query("large") {
+            grid-template-areas:
+                "get-help about-tts info social-media"
+                "copyright copyright copyright copyright";
+            gap: rem(30) rem(20);
+        }
+    }
+
+    .get-help {
+        grid-area: get-help;
+        min-width: rem(160);
+
+        @include media-query(rem(600)) {
+            min-width: initial;
+        }
+    }
+
+    .about-tts {
+        grid-area: about-tts;
+    }
+
+    .info {
+        grid-area: info;
+        max-width: rem(250);
+
+        @include media-query("medium") {
+            max-width: rem(350);
+        }
+    }
+
+    .social-media {
+        grid-area: social-media;
+
+        @include media-query("medium") {
+            align-self: flex-end;
+        }
+    }
+
+    .copyright {
+        grid-area: copyright;
+    }
+
+    &__item {
+        color: color("light-grey");
+
+        &:first-child {
+            margin-bottom: rem(5);
+        }
+    }
+
+    &__title {
+        font-weight: weight("bold");
+        color: color("primary");
+    }
+
+    &__link {
+        color: color("light-grey");
+
+        &:hover,
+        &:focus {
+            color: color("primary");
+            text-decoration: underline;
+        }
+    }
+
+    &__logo {
+        @extend %logo;
+        color: color("primary");
+    }
+
+    &__social-icons > * {
+        &:not(:first-child) {
+            margin-left: rem(5);
+        }
+    }
+
+    &__social-icon {
+        font-size: rem(30);
+        color: color("light-grey");
+
+        &:hover,
+        &:focus {
+            color: color("primary");
+        }
+
+        @include media-query("medium") {
+            font-size: rem(35);
+        }
+    }
+
+    &__info-text {
+        margin-left: rem(7);
+    }
+
+    &__copyright {
+        text-align: center;
+        color: color("light-grey");
+    }
+}

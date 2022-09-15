@@ -1,3 +1,6 @@
+@use "functions" as *;
+@use "mixins" as *;
+
 %search-form {
     display: flex;
     align-items: center;
@@ -7,4 +10,13 @@
     border: none;
     width: 100%;
     background-color: inherit;
+}
+
+%logo {
+    font-size: rem(18);
+    font-weight: weight("bold");
+
+    @include media-query("medium") {
+        font-size: rem(22);
+    }
 }
