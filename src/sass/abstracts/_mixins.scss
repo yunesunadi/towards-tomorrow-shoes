@@ -114,3 +114,9 @@
         font-size: rem(20);
     }
 }
+
+@mixin placeholder-box($width) {
+    background-color: color("light-grey");
+    width: $width;
+    height: rem(20);
+}
