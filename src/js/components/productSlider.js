@@ -1,6 +1,6 @@
 import getElement from "../utilities/getElement";
 import "../render/slider";
-import "../render/product";
+import "../features/generatePopularProducts";
 
 const productContainer = getElement(".product-container");
 const prevBtn = getElement(".slider .prev-btn");
