@@ -1,5 +1,9 @@
 @use "../abstracts" as *;
 
+.main {
+    margin-top: rem(55);
+}
+
 .by-category {
     @include section;
 }

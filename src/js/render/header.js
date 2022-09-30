@@ -214,29 +214,7 @@ const elements = `
                                         class="fa-solid fa-xmark nav__search-close clear-btn"
                                     ></i>
                                 </form>
-                                <div class="nav__matched-items">
-                                    <article class="nav__matched-item">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                                            alt=""
-                                            class="nav__matched-img"
-                                        />
-                                        <div class="">
-                                            <p class="nav__matched-name">
-                                                Name
-                                            </p>
-                                            <p class="nav__matched-category">
-                                                Category
-                                            </p>
-                                            <p class="nav__matched-price">
-                                                Price
-                                            </p>
-                                        </div>
-                                    </article>
-                                    <p class="nav__see-results">
-                                        See all results "something"
-                                    </p>
-                                </div>
+                                <div class="nav__matched-items mobile-matched-items"></div>
                             </div>
                         </div>
                         <div class="nav__search--desktop desktop">
@@ -253,49 +231,7 @@ const elements = `
                                     class="fa-solid fa-magnifying-glass nav__search-glass"
                                 ></i>
                             </form>
-                            <div class="nav__matched-items">
-                                <div class="grid-col-2">
-                                    <article class="nav__matched-item">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                                            alt=""
-                                            class="nav__matched-img"
-                                        />
-                                        <div class="">
-                                            <p class="nav__matched-name">
-                                                Name
-                                            </p>
-                                            <p class="nav__matched-category">
-                                                Category
-                                            </p>
-                                            <p class="nav__matched-price">
-                                                Price
-                                            </p>
-                                        </div>
-                                    </article>
-                                    <article class="nav__matched-item">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                                            alt=""
-                                            class="nav__matched-img"
-                                        />
-                                        <div class="">
-                                            <p class="nav__matched-name">
-                                                Name
-                                            </p>
-                                            <p class="nav__matched-category">
-                                                Category
-                                            </p>
-                                            <p class="nav__matched-price">
-                                                Price
-                                            </p>
-                                        </div>
-                                    </article>
-                                </div>
-                                <p class="nav__see-results">
-                                    See all results "something"
-                                </p>
-                            </div>
+                            <div class="nav__matched-items desktop-matched-items"></div>
                         </div>
                     </li>
                     <li class="nav__item">

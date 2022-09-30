@@ -62,7 +62,7 @@
 
 @mixin desktop-dropdown {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     overflow: unset;
     opacity: 0;
     visibility: hidden;
@@ -71,6 +71,7 @@
     background-color: color("primary");
     border-radius: rem(5);
     padding: rem(10);
+    margin-top: rem(5);
 }
 
 @mixin dropdown-checkbox {
@@ -119,4 +120,14 @@
     background-color: color("light-grey");
     width: $width;
     height: rem(20);
+}
+
+@mixin scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: color("light-grey") color("primary");
+
+    &::-webkit-scrollbar-thumb {
+        background-color: color("light-grey");
+        border-radius: rem(30);
+    }
 }
