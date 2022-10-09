@@ -1,7 +1,5 @@
 import getAllProducts from "./getAllProducts";
 
-const quantity = 8;
-
 const getPopularProductIndexes = () =>
     getAllProducts()
         .then((products) => {
@@ -55,5 +53,4 @@ const getPopularProductIndexes = () =>
         })
         .catch((err) => console.log(err));
 
-export { quantity };
 export default getPopularProductIndexes;

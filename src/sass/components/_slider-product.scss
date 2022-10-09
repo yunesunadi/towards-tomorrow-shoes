@@ -1,19 +1,14 @@
 @use "../abstracts" as *;
 
-.product {
+.slider-product {
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: color("light-grey") color("primary");
+
+    @include scrollbar;
 
     &::-webkit-scrollbar {
         height: rem(10);
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: color("light-grey");
-        border-radius: rem(30);
     }
 
     &__item-link {
