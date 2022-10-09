@@ -1,4 +1,4 @@
 import "../render/header";
-import "../features/toggleOverlay";
+import "../features//toggleOverlayHeader";
 import "../features/clearSearchInput";
 import "../features/searchProducts";
