@@ -13,13 +13,12 @@ const babelify = require("babelify");
 const source = require("vinyl-source-stream");
 const buffer = require("vinyl-buffer");
 
-const { htmlPath, sassPath, jsTaskPath, jsWatchPath, imgPath } = {
-    htmlPath: "./*.html",
-    sassPath: "./src/sass/**/*.scss",
-    jsTaskPath: "./src/js/script.js",
-    jsWatchPath: "./src/js/**/*.js",
-    imgPath: "./src/assets/images/**/*.{png,jpg,gif,svg}",
-};
+const htmlPath = "./*.html",
+    sassPath = "./src/sass/**/*.scss",
+    jsTaskHomePath = "./src/js/pages/home.js",
+    jsTaskProductsPath = "./src/js/pages/products.js",
+    jsWatchPath = "./src/js/**/*.js",
+    imgPath = "./src/assets/images/**/*.{png,jpg,gif,svg}";
 
 function sassTask() {
     return src(sassPath, { sourcemaps: true })
@@ -28,11 +27,21 @@ function sassTask() {
         .pipe(dest("./dist/css", { sourcemaps: "." }));
 }
 
-function jsTask() {
-    return browserify(jsTaskPath)
+function jsTaskHome() {
+    return browserify(jsTaskHomePath)
         .transform(babelify, { presets: ["@babel/preset-env"] })
         .bundle()
-        .pipe(source("bundle.js"))
+        .pipe(source("home.js"))
+        .pipe(buffer())
+        .pipe(uglify())
+        .pipe(dest("dist/js"));
+}
+
+function jsTaskProducts() {
+    return browserify(jsTaskProductsPath)
+        .transform(babelify, { presets: ["@babel/preset-env"] })
+        .bundle()
+        .pipe(source("products.js"))
         .pipe(buffer())
         .pipe(uglify())
         .pipe(dest("dist/js"));
@@ -94,16 +103,25 @@ function browserSyncReload(cb) {
 function watchTask() {
     watch(htmlPath, series(browserSyncReload));
     watch(sassPath, series(sassTask, cacheBustTask));
-    watch(jsWatchPath, series(jsTask, cacheBustTask));
+    watch(
+        jsWatchPath,
+        series(parallel(jsTaskHome, jsTaskProducts), cacheBustTask)
+    );
     watch(imgPath, series(imgTask, browserSyncReload));
 }
 
 exports.default = series(
-    parallel(sassTask, jsTask),
+    sassTask,
+    parallel(jsTaskHome, jsTaskProducts),
     imgTask,
     cacheBustTask,
     browserSyncTask,
     watchTask
 );
 
-exports.build = series(parallel(sassTask, jsTask), imgTask, cacheBustTask);
+exports.build = series(
+    sassTask,
+    parallel(jsTaskHome, jsTaskProducts),
+    imgTask,
+    cacheBustTask
+);
