@@ -87,7 +87,9 @@ const elements = `
                     ></i
                 ></a>
             </div>
-            <small class="footer__copyright copyright"></small>
+            <small class="footer__copyright copyright">
+                &copy; <span class="current-year"></span> TTS. All Rights Reserved.
+            </small>
         </div>
     </div>
 </div>`;

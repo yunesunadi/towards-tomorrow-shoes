@@ -4,6 +4,7 @@ const getPopularProductIndexes = () =>
     getAllProducts()
         .then((products) => {
             const generateUniqueNums = () => {
+                const quantity = 8;
                 let randomNums = [];
 
                 for (let i = 1; i <= quantity; i++) {

@@ -16,7 +16,7 @@ const buffer = require("vinyl-buffer");
 const htmlPath = "./*.html",
     sassPath = "./src/sass/**/*.scss",
     jsTaskHomePath = "./src/js/pages/home.js",
-    jsTaskProductsPath = "./src/js/pages/products.js",
+    // jsTaskProductsPath = "./src/js/pages/products.js",
     jsWatchPath = "./src/js/**/*.js",
     imgPath = "./src/assets/images/**/*.{png,jpg,gif,svg}";
 
@@ -37,15 +37,15 @@ function jsTaskHome() {
         .pipe(dest("dist/js"));
 }
 
-function jsTaskProducts() {
-    return browserify(jsTaskProductsPath)
-        .transform(babelify, { presets: ["@babel/preset-env"] })
-        .bundle()
-        .pipe(source("products.js"))
-        .pipe(buffer())
-        .pipe(uglify())
-        .pipe(dest("dist/js"));
-}
+// function jsTaskProducts() {
+//     return browserify(jsTaskProductsPath)
+//         .transform(babelify, { presets: ["@babel/preset-env"] })
+//         .bundle()
+//         .pipe(source("products.js"))
+//         .pipe(buffer())
+//         .pipe(uglify())
+//         .pipe(dest("dist/js"));
+// }
 
 function imgTask() {
     return src(imgPath)
@@ -105,14 +105,16 @@ function watchTask() {
     watch(sassPath, series(sassTask, cacheBustTask));
     watch(
         jsWatchPath,
-        series(parallel(jsTaskHome, jsTaskProducts), cacheBustTask)
+        // series(parallel(jsTaskHome, jsTaskProducts), cacheBustTask)
+        series(jsTaskHome, cacheBustTask)
     );
     watch(imgPath, series(imgTask, browserSyncReload));
 }
 
 exports.default = series(
     sassTask,
-    parallel(jsTaskHome, jsTaskProducts),
+    // parallel(jsTaskHome, jsTaskProducts),
+    jsTaskHome,
     imgTask,
     cacheBustTask,
     browserSyncTask,
@@ -121,7 +123,8 @@ exports.default = series(
 
 exports.build = series(
     sassTask,
-    parallel(jsTaskHome, jsTaskProducts),
+    // parallel(jsTaskHome, jsTaskProducts),
+    jsTaskHome,
     imgTask,
     cacheBustTask
 );
