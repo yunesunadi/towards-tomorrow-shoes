@@ -3,4 +3,10 @@ const getElement = (el) => {
     return element || console.error(element);
 };
 
+const getElements = (el) => {
+    const element = document.querySelectorAll(el);
+    return element || console.error(element);
+};
+
+export { getElements };
 export default getElement;

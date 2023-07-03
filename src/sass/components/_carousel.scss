@@ -11,7 +11,7 @@
         height: 50vh;
 
         @include media-query("medium") {
-            height: 85vh;
+            height: 75vh;
         }
 
         &.slide-left {

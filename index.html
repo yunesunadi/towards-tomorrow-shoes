@@ -6,26 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link rel="stylesheet" href="dist/css/main.css?cb=1665710690284" />
+        <link rel="stylesheet" href="dist/css/main.css?cb=1688406819639" />
         <title>Towards Tomorrow Shoes</title>
     </head>
     <body>
         <header class="header"></header>
         <main class="main">
             <section class="hero">
-                <div class="container">
+                <div class="container" id="hero">
                     <div class="carousel">
                         <article class="carousel__item item">
                             <div class="sub-container">
                                 <h1 class="carousel__title title"></h1>
                                 <p class="carousel__text text"></p>
                                 <a
-                                    href="products.html"
+                                    href="#by-category"
                                     class="carousel__shop-btn"
                                     >Shop Now
                                     <i class="fa-solid fa-arrow-right-long"></i
@@ -44,8 +44,20 @@
                     </div>
                 </div>
             </section>
-            <section class="by-category">
+            <section class="cta">
                 <div class="container">
+                    <div class="sub-container">
+                        <div class="cta__info">
+                            <p class="cta__text">
+                                Join the community and get the latest news.
+                            </p>
+                            <a href="signup.html" class="cta__btn">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="by-category">
+                <div class="container" id="by-category">
                     <div class="sub-container">
                         <div class="category">
                             <h2 class="category__title">Shop by category</h2>
@@ -92,7 +104,7 @@
                 </div>
             </section>
             <section class="popular-now">
-                <div class="container">
+                <div class="container" id="popular-now">
                     <div class="sub-container">
                         <h2 class="title">Popular right now</h2>
                         <div class="product-slider">
@@ -103,7 +115,7 @@
                 </div>
             </section>
             <section class="by-brand">
-                <div class="container">
+                <div class="container" id="by-brand">
                     <div class="sub-container">
                         <div class="brand">
                             <h2 class="brand__title">Shop by brand</h2>
@@ -145,21 +157,12 @@
                     </div>
                 </div>
             </section>
-            <section class="cta">
-                <div class="container">
-                    <div class="sub-container">
-                        <div class="cta__info">
-                            <p class="cta__text">
-                                Join the community and get the latest news.
-                            </p>
-                            <a href="signup.html" class="cta__btn">Sign Up</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </main>
         <footer class="footer"></footer>
+        <a href="#hero" class="back-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
         <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-        <script src="dist/js/home.js?cb=1665710690284"></script>
+        <script src="dist/js/home.js?cb=1688406819639"></script>
     </body>
 </html>

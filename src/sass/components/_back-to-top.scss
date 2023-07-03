@@ -1,0 +1,28 @@
+@use "../abstracts" as *;
+
+.back-to-top {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: rem(20);
+    right: rem(20);
+    font-size: rem(15);
+    color: color("secondary");
+    background-color: darken(color("light-grey"), 40);
+    border-radius: rem(5);
+    border: rem(2) solid color("secondary");
+    padding: rem(3) rem(8);
+
+    @include media-query("medium") {
+        bottom: rem(25);
+        right: rem(25);
+        font-size: rem(18);
+        padding: rem(3) rem(10);
+    }
+
+    @include media-query("large") {
+        bottom: rem(30);
+        right: rem(35);
+        padding: rem(5) rem(12);
+    }
+}
