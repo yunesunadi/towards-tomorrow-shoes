@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+.product {
+    &__item {
+        margin-bottom: rem(20);
+    }
+
+    &__colors {
+        // overflow-x: scroll;
+        display: flex;
+        gap: rem(7);
+    }
+
+    &__color-img {
+        width: rem(60);
+        height: rem(60);
+    }
+
+    @include product;
+    @include placeholder-product;
+}

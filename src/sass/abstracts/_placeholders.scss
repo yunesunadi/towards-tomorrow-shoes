@@ -20,3 +20,17 @@
         font-size: rem(22);
     }
 }
+
+%close-btn {
+    $size: rem(7);
+
+    display: inline;
+    float: right;
+    margin-right: -$size;
+    padding: 0 $size;
+    color: color("secondary");
+
+    @include media-query("medium") {
+        display: none;
+    }
+}

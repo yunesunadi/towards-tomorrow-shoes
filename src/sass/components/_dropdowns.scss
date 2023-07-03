@@ -23,12 +23,11 @@
                 left: rem(-60);
             }
 
-            @include dropdown-checkbox;
+            @include dropdown-checkbox(".nav");
             @include dropdown-hover;
         }
 
-        @include dropdown-checkbox;
-
+        @include dropdown-checkbox(".nav");
         @include dropdown-hover;
     }
 

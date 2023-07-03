@@ -30,17 +30,7 @@
             }
 
             .nav__close {
-                $size: rem(7);
-
-                display: inline;
-                float: right;
-                margin-right: -$size;
-                padding: 0 $size;
-                color: color("secondary");
-
-                @include media-query("medium") {
-                    display: none;
-                }
+                @extend %close-btn;
             }
 
             .nav__items {
@@ -62,9 +52,7 @@
             .nav__checkbox {
                 display: none;
 
-                &:checked + div .nav__caret {
-                    transform: rotate(180deg);
-                }
+                @include dropdown-caret(".nav");
             }
 
             .nav__caret {
@@ -96,6 +84,8 @@
             }
 
             .nav__bars {
+                color: color("secondary");
+
                 @include media-query("medium") {
                     display: none;
                 }
