@@ -4,6 +4,43 @@
     margin-top: rem(55);
 }
 
+.promotion {
+    @include section;
+
+    background-color: color("light-grey");
+
+    &__info {
+        @include media-query(rem(500)) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: rem(20);
+        }
+    }
+
+    &__text {
+        font-size: rem(14);
+        text-align: center;
+        margin-bottom: rem(10);
+        text-transform: uppercase;
+
+        @include media-query("medium") {
+            font-size: rem(17);
+            margin-top: rem(-32);
+            margin-bottom: rem(0);
+        }
+    }
+
+    &__icon {
+        font-size: rem(20);
+        margin-right: rem(3);
+
+        @include media-query("medium") {
+            font-size: rem(25);
+        }
+    }
+}
+
 .by-category {
     @include section;
 }
