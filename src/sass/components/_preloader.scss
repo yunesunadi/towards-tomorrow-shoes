@@ -1,0 +1,59 @@
+@use "../abstracts" as *;
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: grid;
+    place-content: center;
+    background-color: color("primary");
+    text-align: center;
+    transition: opacity 0.3s ease-in;
+
+    &__progress-bar {
+        position: relative;
+        width: rem(190);
+        height: rem(20);
+        border: rem(3) solid color("secondary");
+        background-color: color("primary");
+        text-align: center;
+
+        @include media-query("medium") {
+            width: rem(220);
+            height: rem(25);
+        }
+    }
+
+    &__progress {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: color("secondary");
+        width: 0%;
+        height: auto;
+    }
+
+    &__progress-percent {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: rem(12);
+        color: color("secondary");
+
+        @include media-query("medium") {
+            font-size: rem(14);
+        }
+    }
+}
+
+.hide {
+    opacity: 0;
+    pointer-events: none;
+}
