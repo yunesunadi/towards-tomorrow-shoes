@@ -1,0 +1,72 @@
+@use "../abstracts" as *;
+
+.faq {
+    &__container {
+        max-width: rem(550);
+        margin: 0 auto rem(15);
+    }
+
+    &__card {
+        position: relative;
+
+        @include pseudo("after", $left: rem(0), $bottom: rem(-7)) {
+            width: 100%;
+            border-bottom: rem(1.5) solid color("secondary");
+        }
+
+        &:not(:last-child) {
+            margin-bottom: rem(18);
+        }
+    }
+
+    &__question-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        cursor: pointer;
+    }
+
+    &__question {
+        font-size: rem(14);
+
+        @include media-query("medium") {
+            font-size: rem(16);
+        }
+    }
+
+    &__icon {
+        cursor: pointer;
+        font-size: rem(14);
+        border: none;
+        background-color: transparent;
+        transition: transform 0.2s ease-in;
+
+        @include media-query("medium") {
+            font-size: rem(16);
+        }
+    }
+
+    &__answer {
+        font-size: rem(13);
+        line-height: rem(16);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+
+        @include media-query("medium") {
+            font-size: rem(14);
+            line-height: rem(18);
+        }
+    }
+}
+
+.active {
+    & .faq__icon {
+        transform: rotateX(180deg);
+    }
+
+    & .faq__answer {
+        max-height: rem(100);
+        transition: max-height 0.5s ease-in;
+    }
+}

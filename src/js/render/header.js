@@ -64,7 +64,7 @@ const elements = `
                             >
                         </li>
                         <li class="nav__item">
-                            <a href="#faqs" class="nav__link">FAQs</a>
+                            <a href="#faq" class="nav__link">FAQs</a>
                         </li>
                     </div>
                 </div>
