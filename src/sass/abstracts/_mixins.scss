@@ -139,22 +139,12 @@
 }
 
 @mixin product {
-    &__item-link {
-        color: color("secondary");
-
-        &:hover,
-        &:focus {
-            text-decoration: underline;
-        }
-    }
-
     &__img {
         width: 100%;
         height: rem(270);
     }
 
     &__wishlist {
-        cursor: default;
         position: absolute;
         top: rem(12);
         right: rem(12);

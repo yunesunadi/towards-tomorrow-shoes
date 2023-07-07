@@ -3,17 +3,22 @@
 .product {
     &__item {
         margin-bottom: rem(20);
-    }
+        position: relative;
+        cursor: pointer;
 
-    &__colors {
-        // overflow-x: scroll;
-        display: flex;
-        gap: rem(7);
-    }
+        &:hover,
+        &:focus {
+            background-color: color("secondary");
+            color: color("light-grey");
 
-    &__color-img {
-        width: rem(60);
-        height: rem(60);
+            & .product__name {
+                text-decoration: underline;
+            }
+
+            & .product__wishlist {
+                color: color("secondary");
+            }
+        }
     }
 
     @include product;

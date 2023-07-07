@@ -4,6 +4,7 @@
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    padding-bottom: rem(10);
 
     @include scrollbar;
 
@@ -11,9 +12,29 @@
         height: rem(10);
     }
 
+    @include media-query("medium") {
+        padding-bottom: rem(15);
+    }
+
     &__item {
+        cursor: pointer;
+
         &:not(:last-child) {
             padding-right: rem(12);
+        }
+
+        &:hover div,
+        &:focus div {
+            background-color: color("secondary");
+            color: color("light-grey");
+
+            & .slider-product__name {
+                text-decoration: underline;
+            }
+
+            & .slider-product__wishlist {
+                color: color("secondary");
+            }
         }
     }
 
