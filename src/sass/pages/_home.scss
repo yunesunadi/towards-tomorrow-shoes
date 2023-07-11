@@ -56,6 +56,10 @@
         justify-items: center;
         grid-gap: 0 rem(15);
     }
+
+    &__btn {
+        @include button(rem(400));
+    }
 }
 
 .popular-now {

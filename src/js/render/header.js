@@ -24,6 +24,7 @@ const elements = `
                                     type="checkbox"
                                     class="nav__checkbox"
                                     id="checkbox1"
+                                    checked
                                 />
                                 <div class="jc-space-between">
                                     <a href="#" class="nav__link"

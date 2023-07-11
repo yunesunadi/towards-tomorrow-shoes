@@ -72,6 +72,15 @@
                     all: unset;
                 }
             }
+
+            .product__title--desktop {
+                display: none;
+
+                @include media-query("medium") {
+                    font-size: rem(18);
+                    display: block;
+                }
+            }
         }
 
         &--right {

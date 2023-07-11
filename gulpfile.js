@@ -1,4 +1,4 @@
-const { src, dest, watch, series } = require("gulp");
+const { src, dest, watch, series, parallel } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
@@ -16,6 +16,7 @@ const buffer = require("vinyl-buffer");
 const htmlPath = "./*.html",
     sassPath = "./src/sass/**/*.scss",
     jsTaskHomePath = "./src/js/pages/home.js",
+    jsTaskProductsPath = "./src/js/pages/products.js",
     jsWatchPath = "./src/js/**/*.js",
     imgPath = "./src/assets/images/**/*.{png,jpg,gif,svg}";
 
@@ -31,6 +32,16 @@ function jsTaskHome() {
         .transform(babelify, { presets: ["@babel/preset-env"] })
         .bundle()
         .pipe(source("home.js"))
+        .pipe(buffer())
+        .pipe(uglify())
+        .pipe(dest("dist/js"));
+}
+
+function jsTaskProducts() {
+    return browserify(jsTaskProductsPath)
+        .transform(babelify, { presets: ["@babel/preset-env"] })
+        .bundle()
+        .pipe(source("products.js"))
         .pipe(buffer())
         .pipe(uglify())
         .pipe(dest("dist/js"));
@@ -92,17 +103,25 @@ function browserSyncReload(cb) {
 function watchTask() {
     watch(htmlPath, series(browserSyncReload));
     watch(sassPath, series(sassTask, cacheBustTask));
-    watch(jsWatchPath, series(jsTaskHome, cacheBustTask));
+    watch(
+        jsWatchPath,
+        series(parallel(jsTaskHome, jsTaskProducts), cacheBustTask)
+    );
     watch(imgPath, series(imgTask, browserSyncReload));
 }
 
 exports.default = series(
     sassTask,
-    jsTaskHome,
+    parallel(jsTaskHome, jsTaskProducts),
     imgTask,
     cacheBustTask,
     browserSyncTask,
     watchTask
 );
 
-exports.build = series(sassTask, jsTaskHome, imgTask, cacheBustTask);
+exports.build = series(
+    sassTask,
+    parallel(jsTaskHome, jsTaskProducts),
+    imgTask,
+    cacheBustTask
+);

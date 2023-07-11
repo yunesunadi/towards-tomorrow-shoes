@@ -181,3 +181,27 @@
         }
     }
 }
+
+@mixin button($max-width) {
+    border: rem(2) solid color("secondary");
+    background-color: color("primary");
+    color: color("secondary");
+    width: 100%;
+    line-height: rem(40);
+    height: rem(45);
+    margin: 0 auto;
+    margin-top: rem(15);
+    display: block;
+    text-align: center;
+
+    &:hover {
+        background-color: color("secondary");
+        color: color("primary");
+    }
+
+    @include media-query("medium") {
+        max-width: $max-width;
+        line-height: rem(47);
+        height: rem(52);
+    }
+}

@@ -1,21 +1,25 @@
 import getElement from "../utilities/getElement";
 
-const backToTop = getElement(".back-to-top");
-const hero = getElement("#hero");
-const heroHeight = hero.getBoundingClientRect().height;
-const halfHeroHeight = heroHeight / 2;
+const backToTop = (element) => {
+    const backToTopEl = getElement(".back-to-top");
+    const topSection = getElement(element);
+    const topSectionHeight = topSection.getBoundingClientRect().height;
+    const halfTopSectionHeight = topSectionHeight / 2;
 
-window.addEventListener("scroll", () => {
-    if (window.pageYOffset > halfHeroHeight) {
-        backToTop.style.display = "block";
-    } else {
-        backToTop.style.display = "none";
-    }
-});
-
-backToTop.addEventListener("click", (e) => {
-    e.preventDefault();
-    window.scroll({
-        top: 0,
+    window.addEventListener("scroll", () => {
+        if (window.pageYOffset > halfTopSectionHeight) {
+            backToTopEl.style.display = "block";
+        } else {
+            backToTopEl.style.display = "none";
+        }
     });
-});
+
+    backToTopEl.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.scroll({
+            top: 0,
+        });
+    });
+};
+
+export default backToTop;

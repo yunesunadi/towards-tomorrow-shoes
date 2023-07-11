@@ -1,7 +1,7 @@
 import render from "../utilities/render";
 import getAllProducts from "../data/getAllProducts";
 import { productElement, placeholderProductElement } from "../render/product";
-import { getElements } from "../utilities/getElement";
+import getElement, { getElements } from "../utilities/getElement";
 
 window.addEventListener("DOMContentLoaded", () => {
     getAllProducts()
@@ -9,6 +9,8 @@ window.addEventListener("DOMContentLoaded", () => {
             const categoryItems = getElements(".filter-btn");
             const dropdownLinks = getElements(".nav__dropdown-link");
             const radios = getElements(".category-filter__radio");
+            const brandLogos = getElements(".brand__logo-link");
+            const shopBtn = getElement(".category__btn");
 
             const displayPlaceholderProducts = (quantity) => {
                 let placeholderProducts = "";
@@ -20,8 +22,10 @@ window.addEventListener("DOMContentLoaded", () => {
                 render(placeholderProducts, ".category__items");
             };
 
-            const displayProducts = (displayedProducts) => {
+            const displayProducts = (products) => {
                 let productElements = "";
+
+                const displayedProducts = products.slice(0, 4);
 
                 displayedProducts.forEach(
                     ({ name, category, price, gender, imageUrls }) => {
@@ -46,6 +50,12 @@ window.addEventListener("DOMContentLoaded", () => {
             displayPlaceholderProducts(defaultProducts.length);
             displayProducts(defaultProducts);
 
+            render("Shop Women", ".category__btn");
+            localStorage.setItem(
+                "filterValue",
+                JSON.stringify({ category: "Women", shopBy: "category" })
+            );
+
             const filterProducts = (items) => {
                 items.forEach((item) => {
                     item.addEventListener("click", (e) => {
@@ -63,12 +73,41 @@ window.addEventListener("DOMContentLoaded", () => {
 
                         displayPlaceholderProducts(filterProducts.length);
                         displayProducts(filterProducts);
+
+                        render(`Shop ${currentTarget}`, ".category__btn");
+
+                        shopBtn.addEventListener("click", () => {
+                            localStorage.setItem(
+                                "filterValue",
+                                JSON.stringify({
+                                    category: currentTarget,
+                                    shopBy: "category",
+                                })
+                            );
+                        });
                     });
                 });
             };
 
             filterProducts(categoryItems);
             filterProducts(dropdownLinks);
+
+            const filterProductsByBrand = (items) => {
+                items.forEach((item) => {
+                    item.addEventListener("click", (e) => {
+                        const currentTarget = e.currentTarget.dataset.brand;
+                        localStorage.setItem(
+                            "filterValue",
+                            JSON.stringify({
+                                category: currentTarget,
+                                shopBy: "brand",
+                            })
+                        );
+                    });
+                });
+            };
+
+            filterProductsByBrand(brandLogos);
         })
         .catch((err) => console.log(err));
 });

@@ -1,4 +1,5 @@
 import getElement, { getElements } from "../utilities/getElement";
+import backToTop from "./backToTop";
 
 const navLinks = getElements(".menu-overlay .nav__link");
 const dropdownLinks = getElements(".menu-overlay .nav__dropdown-link");
@@ -38,3 +39,5 @@ shopBtn.addEventListener("click", (e) => {
     e.preventDefault();
     scrollToId(e);
 });
+
+backToTop("#hero");

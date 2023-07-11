@@ -1,4 +1,5 @@
 import "../components/header";
+import "../features/scrollToSection";
 import "../components/carousel";
 import "../components/countdown";
 import "../components/categoryFilter";
