@@ -21,6 +21,10 @@
 
         &:not(:last-child) {
             padding-right: rem(12);
+
+            @include media-query("medium") {
+                padding-right: rem(15);
+            }
         }
 
         &:hover div,
@@ -31,20 +35,12 @@
             & .slider-product__name {
                 text-decoration: underline;
             }
-
-            & .slider-product__wishlist {
-                color: color("secondary");
-            }
         }
     }
 
     &__img-container {
         position: relative;
-        width: rem(300);
-
-        @include media-query("medium") {
-            width: rem(290);
-        }
+        width: rem(290);
     }
 
     @include product;

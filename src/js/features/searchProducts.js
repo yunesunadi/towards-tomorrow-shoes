@@ -2,9 +2,13 @@ import getElement from "../utilities/getElement";
 import getAllProducts from "../data/getAllProducts";
 import matchedProductElement from "../render/matchedProduct";
 import render from "../utilities/render";
+import displayModal from "../components/productDetailsModal";
 
 const mobileInput = getElement(".mobile .input");
 const desktopInput = getElement(".desktop .input");
+const mobileSearchForm = getElement(".mobile .nav__search-form");
+const desktopSearchForm = getElement(".desktop .nav__search-form");
+const searchBtn = getElement(".desktop .nav__search-glass");
 
 getAllProducts()
     .then((products) => {
@@ -17,13 +21,29 @@ getAllProducts()
                 return name.match(regExp);
             });
 
+            if (inputValue) {
+                localStorage.setItem("inputValue", inputValue);
+                localStorage.setItem(
+                    "matchedProducts",
+                    JSON.stringify(matchedProducts)
+                );
+            } else {
+                localStorage.setItem("inputValue", "");
+                localStorage.setItem("matchedProducts", JSON.stringify([]));
+            }
+
             inputValue &&
                 matchedProducts.map((product) => {
-                    const { name, category, price, gender, imageUrls } =
-                        product;
+                    const {
+                        productCode,
+                        name,
+                        category,
+                        price,
+                        gender,
+                        image,
+                    } = product;
                     const suffix = gender === "Kids" ? "'" : "'s";
-                    const formatedCategory = `${gender}${suffix} ${category} Shoes`;
-                    const image = imageUrls[0];
+                    const formatedCategory = `${gender}${suffix} ${category} Shoe`;
 
                     const regExp = new RegExp(inputValue, "gi");
 
@@ -33,6 +53,7 @@ getAllProducts()
                     );
 
                     elements += matchedProductElement(
+                        productCode,
                         highlightedName,
                         formatedCategory,
                         price,
@@ -50,17 +71,29 @@ getAllProducts()
                     className
                 );
             } else {
-                inputValue &&
+                if (inputValue) {
                     getElement(className).insertAdjacentHTML(
                         "beforeend",
                         `<div class="nav__see-results">
                             <a href="products.html">
                                 See all results "${inputValue}"
                             </a>
-                        </div>
-                        `
+                        </div>`
                     );
+
+                    getElement(".nav__see-results").addEventListener(
+                        "click",
+                        () => {
+                            localStorage.setItem(
+                                "filterValue",
+                                JSON.stringify({ filterBy: "search" })
+                            );
+                        }
+                    );
+                }
             }
+
+            displayModal();
         };
 
         mobileInput.addEventListener("keyup", (e) =>
@@ -79,5 +112,24 @@ getAllProducts()
 
             searchProducts(e, ".desktop-matched-items");
         });
+
+        const redirectPage = (element, event) => {
+            element.addEventListener(event, (e) => {
+                e.preventDefault();
+
+                localStorage.setItem(
+                    "filterValue",
+                    JSON.stringify({ filterBy: "search" })
+                );
+
+                if (localStorage.getItem("inputValue")) {
+                    location.href = "products.html";
+                }
+            });
+        };
+
+        redirectPage(mobileSearchForm, "submit");
+        redirectPage(desktopSearchForm, "submit");
+        redirectPage(searchBtn, "click");
     })
     .catch((err) => console.log(err));

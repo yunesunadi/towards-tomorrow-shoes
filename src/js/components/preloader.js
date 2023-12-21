@@ -8,7 +8,7 @@ const progressPercent = getElement(".preloader__progress-percent");
 let startLimit = 0;
 let endLimit = 100;
 
-const progressInterval = setInterval(renderProgress, 20);
+const progressInterval = setInterval(renderProgress, 15);
 
 function renderProgress() {
     if (startLimit === endLimit) {
@@ -26,4 +26,4 @@ function renderProgress() {
 
 setTimeout(() => {
     preloader.classList.add("hide");
-}, 2050);
+}, 1550);

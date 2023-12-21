@@ -1,179 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="dist/css/main.css?cb=1689076607721" />
-        <title>Towards Tomorrow Shoes</title>
-    </head>
-    <body>
-        <header class="header"></header>
-        <main class="main">
-            <section class="hero">
-                <div class="container" id="hero">
-                    <div class="carousel">
-                        <article class="carousel__item item">
-                            <div class="sub-container">
-                                <h1 class="carousel__title title"></h1>
-                                <p class="carousel__text text"></p>
-                                <a
-                                    href="#by-category"
-                                    class="carousel__shop-btn"
-                                    >Shop Now
-                                    <i class="fa-solid fa-arrow-right-long"></i
-                                ></a>
-                            </div>
-                        </article>
-                        <div class="carousel__indicators indicators"></div>
-                        <div class="carousel__btns">
-                            <button class="carousel__prev-btn prev-btn">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </button>
-                            <button class="carousel__next-btn next-btn">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </button>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/css/main.css?cb=1703172396560" />
+    <title>Towards Tomorrow Shoes</title>
+</head>
+
+<body>
+    <header class="header"></header>
+    <main class="main">
+        <section class="hero">
+            <div class="container" id="hero">
+                <div class="carousel">
+                    <article class="carousel__item item">
+                        <div class="sub-container">
+                            <h1 class="carousel__title title"></h1>
+                            <p class="carousel__text text"></p>
+                            <a href="#by-category" class="carousel__shop-btn">Shop Now
+                                <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
+                    </article>
+                    <div class="carousel__indicators indicators"></div>
+                    <div class="carousel__btns">
+                        <button class="carousel__prev-btn prev-btn">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel__next-btn next-btn">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
                     </div>
                 </div>
-            </section>
-            <section class="promotion">
-                <div class="container">
-                    <div class="sub-container">
-                        <div class="promotion__info">
-                            <p class="promotion__text">
-                                <i
-                                    class="fa-solid fa-calendar-week promotion__icon"
-                                ></i>
-                                Special promotion will end in
-                            </p>
-                            <div class="countdown"></div>
-                        </div>
+            </div>
+        </section>
+        <section class="promotion">
+            <div class="container">
+                <div class="sub-container">
+                    <div class="promotion__info">
+                        <p class="promotion__text">
+                            <i class="fa-solid fa-calendar-week promotion__icon"></i>
+                            Special promotion will end in
+                        </p>
+                        <div class="countdown"></div>
                     </div>
                 </div>
-            </section>
-            <section class="by-category">
-                <div class="container" id="by-category">
-                    <div class="sub-container">
-                        <div class="category">
-                            <h2 class="category__title">Shop by category</h2>
-                            <div class="category-filter">
-                                <ul class="category-filter__list"></ul>
-                            </div>
-                            <div class="category__items"></div>
-                            <a href="products.html" class="category__btn"
-                                >Shop</a
-                            >
+            </div>
+        </section>
+        <section class="by-category">
+            <div class="container" id="by-category">
+                <div class="sub-container">
+                    <div class="category">
+                        <h2 class="category__title">Shop by category</h2>
+                        <div class="category-filter">
+                            <ul class="category-filter__list"></ul>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="popular-now">
-                <div class="container" id="popular-now">
-                    <div class="sub-container">
-                        <h2 class="title">Popular right now</h2>
-                        <div class="product-slider">
-                            <div class="slider"></div>
-                            <div class="slider-product product-container"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="by-brand">
-                <div class="container" id="by-brand">
-                    <div class="sub-container">
-                        <div class="brand">
-                            <h2 class="brand__title">Shop by brand</h2>
-                            <div class="brand__logos">
-                                <a
-                                    href="products.html"
-                                    data-brand="Nike"
-                                    class="brand__logo-link"
-                                >
-                                    <figure class="brand__logo-container">
-                                        <img
-                                            src="dist/assets/images/brand-logos/nike.png"
-                                            alt="Nike logo"
-                                            class="brand__logo"
-                                        /></figure
-                                ></a>
-                                <a
-                                    href="products.html"
-                                    data-brand="Adidas"
-                                    class="brand__logo-link"
-                                >
-                                    <figure class="brand__logo-container">
-                                        <img
-                                            src="dist/assets/images/brand-logos/adidas.png"
-                                            alt="adidas logo"
-                                            class="brand__logo"
-                                        /></figure
-                                ></a>
-                                <a
-                                    href="products.html"
-                                    data-brand="Reebok"
-                                    class="brand__logo-link"
-                                >
-                                    <figure class="brand__logo-container">
-                                        <img
-                                            src="dist/assets/images/brand-logos/reebok.png"
-                                            alt="Reebok logo"
-                                            class="brand__logo"
-                                        /></figure
-                                ></a>
-                                <a
-                                    href="products.html"
-                                    data-brand="New Balance"
-                                    class="brand__logo-link"
-                                >
-                                    <figure class="brand__logo-container">
-                                        <img
-                                            src="dist/assets/images/brand-logos/newbalance.png"
-                                            alt="New Balance logo"
-                                            class="brand__logo"
-                                        /></figure
-                                ></a>
+                        <div class="category__items"></div>
+                        <div class="modal">
+                            <div class="modal__overlay"></div>
+                            <div class="modal__dialog">
+                                <button class="modal__close-btn">
+                                    <i class="fa-solid fa-x"></i>
+                                </button>
+                                <div class="modal__content"></div>
                             </div>
                         </div>
+                        <a href="products.html" class="category__btn">Shop</a>
                     </div>
                 </div>
-            </section>
-            <section class="faq">
-                <div class="container" id="faq">
-                    <div class="sub-container">
-                        <h2 class="faq__title">Frequently Asked Questions</h2>
-                        <div class="faq__container">
-                            <div class="faq__items"></div>
+            </div>
+        </section>
+        <section class="popular-now">
+            <div class="container" id="popular-now">
+                <div class="sub-container">
+                    <h2 class="title">Popular right now</h2>
+                    <div class="product-slider">
+                        <div class="slider"></div>
+                        <div class="slider-product product-container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="by-brand">
+            <div class="container" id="by-brand">
+                <div class="sub-container">
+                    <div class="brand">
+                        <h2 class="brand__title">Shop by brand</h2>
+                        <div class="brand__logos">
+                            <a href="products.html" data-brand="Nike" class="brand__logo-link">
+                                <figure class="brand__logo-container">
+                                    <img src="dist/assets/images/brand-logos/nike.png" alt="Nike logo"
+                                        class="brand__logo" />
+                                </figure>
+                            </a>
+                            <a href="products.html" data-brand="Adidas" class="brand__logo-link">
+                                <figure class="brand__logo-container">
+                                    <img src="dist/assets/images/brand-logos/adidas.png" alt="adidas logo"
+                                        class="brand__logo" />
+                                </figure>
+                            </a>
+                            <a href="products.html" data-brand="Reebok" class="brand__logo-link">
+                                <figure class="brand__logo-container">
+                                    <img src="dist/assets/images/brand-logos/reebok.png" alt="Reebok logo"
+                                        class="brand__logo" />
+                                </figure>
+                            </a>
+                            <a href="products.html" data-brand="New Balance" class="brand__logo-link">
+                                <figure class="brand__logo-container">
+                                    <img src="dist/assets/images/brand-logos/newbalance.png" alt="New Balance logo"
+                                        class="brand__logo" />
+                                </figure>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="cta">
-                <div class="container">
-                    <div class="sub-container">
-                        <div class="cta__info">
-                            <p class="cta__text">
-                                Join the community and get the latest news.
-                            </p>
-                            <a href="#" class="cta__btn">Sign Up</a>
-                        </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container" id="faq">
+                <div class="sub-container">
+                    <h2 class="faq__title">Frequently Asked Questions</h2>
+                    <div class="faq__container">
+                        <div class="faq__items"></div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer class="footer"></footer>
-        <div class="preloader"></div>
-        <a href="#hero" class="back-to-top">
-            <i class="fa-solid fa-arrow-up"></i>
-        </a>
-        <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-        <script src="dist/js/home.js?cb=1689076607721"></script>
-    </body>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="sub-container">
+                    <div class="cta__info">
+                        <p class="cta__text">
+                            Join the community and get the latest news.
+                        </p>
+                        <a href="#" class="cta__btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+    <div class="preloader"></div>
+    <a href="#hero" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="dist/js/home.js?cb=1703172396560"></script>
+</body>
+
 </html>

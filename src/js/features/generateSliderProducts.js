@@ -21,13 +21,19 @@ const generateSliderProducts = (getProductIndexes) => {
                 let elements = "";
 
                 indexes.map((index) => {
-                    const { name, category, price, gender, imageUrls } =
-                        products[index];
+                    const {
+                        productCode,
+                        name,
+                        category,
+                        price,
+                        gender,
+                        image
+                    } = products[index];
                     const suffix = gender === "Kids" ? "'" : "'s";
-                    const formatedCategory = `${gender}${suffix} ${category} Shoes`;
-                    const image = imageUrls[0];
+                    const formatedCategory = `${gender}${suffix} ${category} Shoe`;
 
                     elements += sliderProductElement(
+                        productCode,
                         name,
                         formatedCategory,
                         price,

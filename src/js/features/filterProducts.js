@@ -2,6 +2,7 @@ import render from "../utilities/render";
 import getAllProducts from "../data/getAllProducts";
 import { productElement, placeholderProductElement } from "../render/product";
 import getElement, { getElements } from "../utilities/getElement";
+import displayModal from "../components/productDetailsModal";
 
 window.addEventListener("DOMContentLoaded", () => {
     getAllProducts()
@@ -28,14 +29,22 @@ window.addEventListener("DOMContentLoaded", () => {
                 const displayedProducts = products.slice(0, 4);
 
                 displayedProducts.forEach(
-                    ({ name, category, price, gender, imageUrls }) => {
+                    ({
+                        productCode,
+                        name,
+                        category,
+                        price,
+                        gender,
+                        image
+                    }) => {
                         const suffix = gender === "Kids" ? "'" : "'s";
-                        const formatedCategory = `${gender}${suffix} ${category} Shoes`;
+                        const formatedCategory = `${gender}${suffix} ${category} Shoe`;
                         productElements += productElement(
+                            productCode,
                             name,
                             formatedCategory,
                             price,
-                            imageUrls[0]
+                            image
                         );
                     }
                 );
@@ -51,10 +60,13 @@ window.addEventListener("DOMContentLoaded", () => {
             displayProducts(defaultProducts);
 
             render("Shop Women", ".category__btn");
+
             localStorage.setItem(
                 "filterValue",
                 JSON.stringify({ category: "Women", shopBy: "category" })
             );
+
+            displayModal();
 
             const filterProducts = (items) => {
                 items.forEach((item) => {
@@ -85,6 +97,8 @@ window.addEventListener("DOMContentLoaded", () => {
                                 })
                             );
                         });
+
+                        displayModal();
                     });
                 });
             };

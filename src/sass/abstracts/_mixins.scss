@@ -3,27 +3,30 @@
 
 @mixin media-query($value) {
     $size: null;
-    @if type-of($value) == string {
+
+    @if type-of($value)==string {
         $size: validate-key($breakpoints, $value);
-    } @else {
+    }
+
+    @else {
         $size: not-unitless($value);
     }
+
     @media (min-width: $size) {
         @content;
     }
 }
 
-@mixin pseudo(
-    $element,
+@mixin pseudo($element,
     $content: "",
     $position: absolute,
     $top: null,
     $right: null,
     $bottom: null,
-    $left: null
-) {
-    @if $element == "before" or $element == "after" {
+    $left: null) {
+    @if $element =="before" or $element =="after" {
         position: relative;
+
         &::#{$element} {
             content: $content;
             position: $position;
@@ -33,7 +36,9 @@
             left: not-unitless-and-string($left);
             @content;
         }
-    } @else {
+    }
+
+    @else {
         @error "Pseudo element must be 'before' or 'after'.";
     }
 }
@@ -75,19 +80,20 @@
 }
 
 @mixin dropdown-checkbox($parent) {
-    #{$parent}__checkbox:checked ~ & {
+    #{$parent}__checkbox:checked~& {
         max-height: rem(150);
     }
 }
 
 @mixin dropdown-caret($parent) {
-    &:checked + div #{$parent}__caret {
+    &:checked+div #{$parent}__caret {
         transform: rotate(180deg);
     }
 }
 
 @mixin dropdown-hover {
     @include media-query("medium") {
+
         .nav__item:hover &,
         .nav__item:focus & {
             opacity: 1;
@@ -144,17 +150,11 @@
         height: rem(270);
     }
 
-    &__wishlist {
-        position: absolute;
-        top: rem(12);
-        right: rem(12);
-        font-size: rem(18);
-    }
-
     &__info {
         display: flex;
         justify-content: space-between;
         padding: rem(5) rem(8) rem(20);
+        column-gap: rem(15);
     }
 }
 

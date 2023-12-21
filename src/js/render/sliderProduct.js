@@ -6,9 +6,6 @@ const placeholderSliderProductElement = `
             alt="Product placeholder image"
             class="slider-product__img"
         />
-        <i
-            class="fa-regular fa-heart slider-product__wishlist"
-        ></i>
     </figure>
     <div class="slider-product__info">
         <div class="slider-product__info--left">
@@ -21,12 +18,17 @@ const placeholderSliderProductElement = `
     </div>
 </article>`;
 
-const sliderProductElement = (name, formatedCategory, price, image) => `
-<article class="slider-product__item">
+const sliderProductElement = (
+    productCode,
+    name,
+    formatedCategory,
+    price,
+    image
+) => `
+<article class="slider-product__item product-item" data-code=${productCode}>
     <div>
         <figure class="slider-product__img-container">
-            <img src=${image} alt="Product image" class="slider-product__img" />
-            <i class="fa-regular fa-heart slider-product__wishlist"></i>
+            <img src="../../../dist/assets/images/products/${image}" alt="Product image" class="slider-product__img" />
         </figure>
         <div class="slider-product__info">
             <div class="slider-product__info--left">

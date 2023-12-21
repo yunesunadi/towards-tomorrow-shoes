@@ -5,6 +5,7 @@
         margin-bottom: rem(20);
         position: relative;
         cursor: pointer;
+        width: 100%;
 
         &:hover,
         &:focus {
@@ -14,9 +15,42 @@
             & .product__name {
                 text-decoration: underline;
             }
+        }
+    }
 
-            & .product__wishlist {
-                color: color("secondary");
+    &__length {
+        font-size: rem(11);
+
+        @include media-query("medium") {
+            font-size: rem(12);
+        }
+    }
+
+    &__search-info {
+        width: fit-content;
+        margin: rem(15) auto 0;
+
+        @include media-query("medium") {
+            padding: rem(90) 0;
+            margin: 0 auto;
+        }
+
+        p {
+            margin-bottom: rem(5);
+
+            @include media-query("medium") {
+                margin-bottom: rem(0);
+                font-size: rem(17);
+            }
+
+            &:first-child {
+                font-size: rem(15.5);
+                font-weight: weight("semibold");
+
+                @include media-query("medium") {
+                    margin-bottom: rem(8);
+                    font-size: rem(18);
+                }
             }
         }
     }

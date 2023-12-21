@@ -64,8 +64,6 @@ const slideLeft = () => {
     toggleClass("slide-left");
 };
 
-const interval = setInterval(slideLeft, 10000);
-
 window.addEventListener("DOMContentLoaded", () => {
     displayCarousel();
     activateIndicator();

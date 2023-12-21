@@ -35,7 +35,12 @@ productContainer.addEventListener("scroll", () => {
     const nearestOffset = offsets.find((offset) => offset > scrollAmount);
 
     scrollAmount === 0 ? disable(prevBtn) : enable(prevBtn);
-    scrollAmount === containerScrollWidth ? disable(nextBtn) : enable(nextBtn);
+    
+    if((scrollAmount < containerScrollWidth + 20) && (scrollAmount > containerScrollWidth - 20)) {
+        disable(nextBtn);
+    } else {
+        enable(nextBtn);
+    }
 
     nextBtn.addEventListener("click", () => {
         productContainer.scrollLeft = nearestOffset;
@@ -43,7 +48,7 @@ productContainer.addEventListener("scroll", () => {
 
     prevBtn.addEventListener("click", () => {
         if (offsets.includes(scrollAmount)) {
-            productContainer.scrollLeft = nearestOffset - offsets[0] * 2;
+            productContainer.scrollLeft -= offsets[0];
         } else {
             productContainer.scrollLeft = nearestOffset - offsets[0];
         }

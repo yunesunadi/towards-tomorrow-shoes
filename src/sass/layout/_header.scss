@@ -155,6 +155,11 @@
                     &:not(:last-of-type) {
                         margin-bottom: rem(10);
                     }
+
+                    &:hover,
+                    &:focus {
+                        background-color: color("light-grey");
+                    }
                 }
 
                 .nav__matched-item-link {
@@ -175,7 +180,7 @@
                         grid-column: 1 / -1;
                     }
 
-                    & > * {
+                    &>* {
                         color: color("secondary");
                     }
                 }
@@ -270,11 +275,17 @@
                 }
 
                 .nav__matched-item {
+                    cursor: pointer;
                     display: flex;
                     gap: rem(15);
 
                     &:not(:last-of-type) {
                         margin-bottom: rem(10);
+                    }
+
+                    &:hover,
+                    &:focus {
+                        background-color: color("light-grey");
                     }
                 }
 
@@ -293,7 +304,7 @@
                     margin-top: rem(20);
                     grid-column: 1 / -1;
 
-                    & > * {
+                    &>* {
                         color: color("secondary");
                     }
                 }

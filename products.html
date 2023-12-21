@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-            integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="dist/css/main.css?cb=1689076607721" />
-        <title>Products | Towards Tomorrow Shoes</title>
-    </head>
-    <body>
-        <header class="header"></header>
-        <main class="main-products">
-            <section class="products">
-                <div class="container" id="products">
-                    <div class="sub-container">
-                        <h2 class="product__title--mobile"></h2>
-                        <p class="product__title-link"></p>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/css/main.css?cb=1703172396560" />
+    <title>Products | Towards Tomorrow Shoes</title>
+</head>
+
+<body>
+    <header class="header"></header>
+    <main class="main-products">
+        <section class="products">
+            <div class="container" id="products">
+                <div class="sub-container">
+                    <h2 class="product__title--mobile"></h2>
+                    <p class="product__title-link"></p>
+                    <div class="product__items-info">
                         <div class="product__items"></div>
+                        <div class="modal">
+                            <div class="modal__overlay"></div>
+                            <div class="modal__dialog">
+                                <button class="modal__close-btn">
+                                    <i class="fa-solid fa-x"></i>
+                                </button>
+                                <div class="modal__content"></div>
+                            </div>
+                        </div>
                         <div class="load-more">
                             <p class="load-more__info">
                                 You have viewed
-                                <span class="load-more__view-limit"></span> of
+                                <span class="load-more__view-limit"></span>
+                                of
                                 <span class="load-more__total-limit"></span>
                                 items.
                             </p>
-                            <button class="load-more__btn">Load More</button>
+                            <button class="load-more__btn">
+                                Load More
+                            </button>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer class="footer"></footer>
-        <div class="preloader"></div>
-        <a href="#" class="back-to-top">
-            <i class="fa-solid fa-arrow-up"></i>
-        </a>
-        <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-        <script src="dist/js/products.js?cb=1689076607721"></script>
-    </body>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+    <a href="#" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="dist/js/products.js?cb=1703172396560"></script>
+</body>
+
 </html>

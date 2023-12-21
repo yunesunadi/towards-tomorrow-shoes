@@ -1,0 +1,1282 @@
+[
+  {
+    "productCode": "SH005",
+    "name": "Nike Air Zoom Pegasus 38",
+    "color": "Pink Blast/Black",
+    "price": 119.99,
+    "productDetails": [
+      "The Nike Air Zoom Pegasus 38 is a versatile running shoe suitable for various terrains.",
+      "Zoom Air cushioning in the forefoot for responsive comfort.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "women-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab8cccef-30d9-48cd-99ea-8e72647744f2/vomero-16-premium-womens-road-running-shoes-ZqXmjz.png"
+  },
+  {
+    "productCode": "SH001",
+    "name": "Nike Air Max 270",
+    "color": "Black/White",
+    "price": 129.99,
+    "productDetails": [
+      "The Nike Air Max 270 offers a blend of style and comfort with its large Air Max unit in the heel.",
+      "Breathable mesh upper for enhanced ventilation.",
+      "Durable rubber outsole for traction and durability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH002",
+    "name": "Adidas Ultraboost 21",
+    "color": "Core Black/Solar Red",
+    "price": 169.99,
+    "productDetails": [
+      "The Adidas Ultraboost 21 is designed for ultimate cushioning and energy return.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Stretchweb outsole with Continental™ Rubber for superior grip."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Adidas",
+    "image": "men-adidas-running.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5358e9b99c1f41aabcc2af47009b38f7_9366/Ultrabounce_Running_Shoes_Blue_HP5774_01_standard.jpg"
+  },
+  {
+    "productCode": "SH003",
+    "name": "Reebok Classic Leather 01",
+    "color": "White/Gum",
+    "price": 79.99,
+    "productDetails": [
+      "The Reebok Classic Leather 01 is a timeless shoe known for its clean and simple design.",
+      "Soft leather upper for comfort and style.",
+      "EVA midsole for lightweight cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "men-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/090b2897-04a1-43c0-b37c-de2cf8a946ea/100043526_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH004",
+    "name": "New Balance Fresh Foam 1080v11",
+    "color": "Gunmetal/Outerspace",
+    "price": 149.99,
+    "productDetails": [
+      "The New Balance Fresh Foam 1080v11 offers plush cushioning and a comfortable fit.",
+      "Fresh Foam midsole for a responsive and cushioned ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "men-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/mtgarolg_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH006",
+    "name": "Adidas Superstar 01",
+    "color": "White/Black",
+    "price": 89.99,
+    "productDetails": [
+      "The Adidas Superstar 01 is an iconic sneaker with classic shell toe styling.",
+      "Full-grain leather upper for durability.",
+      "Rubber cupsole for excellent grip."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "women-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bd8ddf3c4c1646da88346b591db45f7b_9366/Avryn_Shoes_Burgundy_IG0649_01_standard.jpg"
+  },
+  {
+    "productCode": "SH007",
+    "name": "Reebok Nano X1",
+    "color": "Neon Blue/Black",
+    "price": 119.99,
+    "productDetails": [
+      "The Reebok Nano X1 is a versatile training shoe designed for cross-training activities.",
+      "Flexweave upper for flexibility and support.",
+      "Floatride Energy Foam midsole for responsive cushioning."
+    ],
+    "gender": "Men",
+    "category": "Training",
+    "brand": "Reebok",
+    "image": "men-reebok-training.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/5664b2ca-d326-4249-86f3-2521eadfb71e/100033318_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH008",
+    "name": "New Balance 990v5",
+    "color": "Navy/Silver",
+    "price": 174.99,
+    "productDetails": [
+      "The New Balance 990v5 is a classic and comfortable running shoe with premium materials.",
+      "Pigskin suede and mesh upper for a premium look and feel.",
+      "ENCAP midsole technology for support and durability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "men-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/mtgarolg_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH009",
+    "name": "Nike Air Force 1",
+    "color": "White/White",
+    "price": 89.99,
+    "productDetails": [
+      "The Nike Air Force 1 is an iconic shoe known for its clean and versatile design.",
+      "Genuine leather upper for a classic look and feel.",
+      "Air-Sole unit in the heel for cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Nike",
+    "image": "men-nike-lifestyle.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/10f5e3ab-4389-4403-a072-1898420cf279/air-trainer-1-mens-shoes-0vx2ft.png"
+  },
+  {
+    "productCode": "SH010",
+    "name": "Adidas NMD_R1",
+    "color": "Core Black/Red",
+    "price": 129.99,
+    "productDetails": [
+      "The Adidas NMD_R1 features a modern design and comfortable Boost cushioning.",
+      "Stretchy mesh upper for a sock-like fit.",
+      "Full-length Boost midsole for energy return."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH011",
+    "name": "Reebok Zig Kinetica 01",
+    "color": "Solar Yellow/Black",
+    "price": 99.99,
+    "productDetails": [
+      "The Reebok Zig Kinetica 01 offers responsive cushioning and a unique design.",
+      "Zig Energy Shell technology for shock absorption.",
+      "Textile upper with supportive overlays."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Reebok",
+    "image": "men-reebok-running.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/75e409d4-b189-4117-b258-eb9562b3dc95/100044854_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH012",
+    "name": "New Balance 5741",
+    "color": "Grey/Blue",
+    "price": 69.99,
+    "productDetails": [
+      "The New Balance 5741 is a classic sneaker with a retro look and comfortable fit.",
+      "Suede and mesh upper for a classic appearance.",
+      "ENCAP midsole cushioning for all-day comfort."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "New Balance",
+    "image": "men-newbalance-lifestyle.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/m2002ran_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH013",
+    "name": "Nike React Infinity Run Flyknit 01",
+    "color": "Barely Rose/Black",
+    "price": 159.99,
+    "productDetails": [
+      "The Nike React Infinity Run Flyknit 01 is designed for maximum cushioning and support.",
+      "Flyknit upper for a snug and supportive fit.",
+      "React foam cushioning for a responsive ride."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "women-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab8cccef-30d9-48cd-99ea-8e72647744f2/vomero-16-premium-womens-road-running-shoes-ZqXmjz.png"
+  },
+  {
+    "productCode": "SH014",
+    "name": "Adidas Stan Smith 01",
+    "color": "White/Green",
+    "price": 79.99,
+    "productDetails": [
+      "The Adidas Stan Smith 01 is a timeless tennis shoe known for its minimalist style.",
+      "Smooth full-grain leather upper for a clean look.",
+      "Perforated 3-Stripes and rubber cupsole."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH015",
+    "name": "Reebok Club C 85",
+    "color": "Chalk/Black",
+    "price": 74.99,
+    "productDetails": [
+      "The Reebok Club C 85 is a classic court shoe with a clean and retro design.",
+      "Soft leather upper for comfort and style.",
+      "EVA midsole for cushioning."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "women-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/2dc3bfff-eaf7-4b31-b160-30e72abdd9fb/100033392_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH016",
+    "name": "New Balance Fresh Foam Beacon v3",
+    "color": "Light Cyclone/Peony",
+    "price": 109.99,
+    "productDetails": [
+      "The New Balance Fresh Foam Beacon v3 is a lightweight and comfortable running shoe.",
+      "Fresh Foam midsole for a cushioned and smooth ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH017",
+    "name": "Nike Free RN 5.0",
+    "color": "Laser Crimson/Black",
+    "price": 99.99,
+    "productDetails": [
+      "The Nike Free RN 5.0 is a minimalist running shoe designed for natural movement.",
+      "Stretchy fabric upper for a flexible and comfortable fit.",
+      "Lightweight foam midsole for a barefoot-like feel."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH018",
+    "name": "Adidas Yeezy Boost 350 V2",
+    "color": "Zebra",
+    "price": 219.99,
+    "productDetails": [
+      "The Adidas Yeezy Boost 350 V2 is a highly sought-after sneaker designed by Kanye West.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Boost cushioning for responsive comfort."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH019",
+    "name": "Reebok Classic Nylon 01",
+    "color": "Black/White",
+    "price": 64.99,
+    "productDetails": [
+      "The Reebok Classic Nylon 01 is a retro-inspired sneaker with a comfortable feel.",
+      "Nylon and suede upper for durability and style.",
+      "EVA midsole for lightweight cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "men-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/090b2897-04a1-43c0-b37c-de2cf8a946ea/100043526_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH020",
+    "name": "New Balance 990v6",
+    "color": "Grey/Castlerock",
+    "price": 174.99,
+    "productDetails": [
+      "The New Balance 990v6 is a classic and comfortable running shoe with premium materials.",
+      "Pigskin suede and mesh upper for a premium look and feel.",
+      "ENCAP midsole technology for support and durability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH021",
+    "name": "Nike Air Zoom Pegasus 39",
+    "color": "Black/Anthracite",
+    "price": 119.99,
+    "productDetails": [
+      "The Nike Air Zoom Pegasus 39 is a versatile running shoe suitable for various terrains.",
+      "Zoom Air cushioning in the forefoot for responsive comfort.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH022",
+    "name": "Adidas Ultraboost 22",
+    "color": "Cloud White/Silver Metallic",
+    "price": 179.99,
+    "productDetails": [
+      "The Adidas Ultraboost 22 offers enhanced cushioning and responsiveness for long runs.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Boost cushioning for energy return."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Adidas",
+    "image": "women-adidas-running.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b44c76086ac64959b99ee9eb0b5dd051_9366/ULTRABOOST_LIGHT_W_Grey_IE1745_HM4.jpg"
+  },
+  {
+    "productCode": "SH023",
+    "name": "Reebok Nano X2",
+    "color": "Black/Neon Red",
+    "price": 119.99,
+    "productDetails": [
+      "The Reebok Nano X2 is a versatile training shoe designed for cross-training activities.",
+      "Flexweave upper for flexibility and support.",
+      "Floatride Energy Foam midsole for responsive cushioning."
+    ],
+    "gender": "Women",
+    "category": "Training",
+    "brand": "Reebok",
+    "image": "women-reebok-training.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/7e6326b5-35af-4df1-b33b-ebf513fa27c9/100069906_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH024",
+    "name": "New Balance Fresh Foam 1080v12",
+    "color": "Guava/White",
+    "price": 149.99,
+    "productDetails": [
+      "The New Balance Fresh Foam 1080v12 offers plush cushioning and a comfortable fit.",
+      "Fresh Foam midsole for a cushioned and smooth ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH025",
+    "name": "Nike Air Force 2",
+    "color": "Black/Black",
+    "price": 89.99,
+    "productDetails": [
+      "The Nike Air Force 2 is an iconic shoe known for its clean and versatile design.",
+      "Genuine leather upper for a classic look and feel.",
+      "Air-Sole unit in the heel for cushioning."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Nike",
+    "image": "women-nike-lifestyle.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/df4e7d53-7140-4efe-9abd-c0e63489e7f3/air-max-solo-womens-shoes-DTkz6b.png"
+  },
+  {
+    "productCode": "SH026",
+    "name": "Adidas NMD_R2",
+    "color": "Core Black/Pink",
+    "price": 129.99,
+    "productDetails": [
+      "The Adidas NMD_R2 features a modern design and comfortable Boost cushioning.",
+      "Stretchy mesh upper for a sock-like fit.",
+      "Full-length Boost midsole for energy return."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "women-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bd8ddf3c4c1646da88346b591db45f7b_9366/Avryn_Shoes_Burgundy_IG0649_01_standard.jpg"
+  },
+  {
+    "productCode": "SH027",
+    "name": "Reebok Zig Kinetica 02",
+    "color": "White/Black/Red",
+    "price": 99.99,
+    "productDetails": [
+      "The Reebok Zig Kinetica 02 offers responsive cushioning and a unique design.",
+      "Zig Energy Shell technology for shock absorption.",
+      "Textile upper with supportive overlays."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Reebok",
+    "image": "women-reebok-running.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/0f574cd2-01c7-4905-9e16-c509d28dbc6a/100046743_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH028",
+    "name": "New Balance 5742",
+    "color": "Black/White",
+    "price": 69.99,
+    "productDetails": [
+      "The New Balance 5742 is a classic sneaker with a retro look and comfortable fit.",
+      "Suede and mesh upper for a classic appearance.",
+      "ENCAP midsole cushioning for all-day comfort."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "New Balance",
+    "image": "women-newbalance-lifestyle.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wl574evn_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600"
+  },
+  {
+    "productCode": "SH029",
+    "name": "Nike React Infinity Run Flyknit 02",
+    "color": "Black/White",
+    "price": 159.99,
+    "productDetails": [
+      "The Nike React Infinity Run Flyknit 02 is designed for maximum cushioning and support.",
+      "Flyknit upper for a snug and supportive fit.",
+      "React foam cushioning for a responsive ride."
+    ],
+    "gender": "Kids",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "kids-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8076d4ae-6693-46dd-a66f-fbc9ab86641f/air-zoom-pegasus-40-pr-big-kids-road-running-shoes-btV5l8.png"
+  },
+  {
+    "productCode": "SH030",
+    "name": "Adidas Superstar 02",
+    "color": "White/Gold",
+    "price": 89.99,
+    "productDetails": [
+      "The Adidas Superstar 02 is an iconic sneaker with classic shell toe styling.",
+      "Full-grain leather upper for durability.",
+      "Rubber cupsole for excellent grip."
+    ],
+    "gender": "Kids",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "kids-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a37a64c6cbc468f8c45ab170128e82b_9366/OZWEEGO_Shoes_White_EF6299_01_standard.jpg"
+  },
+  {
+    "productCode": "SH031",
+    "name": "Reebok Classic Leather 02",
+    "color": "White/Gum",
+    "price": 79.99,
+    "productDetails": [
+      "The Reebok Classic Leather 02 is a timeless shoe known for its clean and simple design.",
+      "Soft leather upper for comfort and style.",
+      "EVA midsole for lightweight cushioning."
+    ],
+    "gender": "Kids",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "kids-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/d7f48e42-2aad-4b0f-9879-ed6aaec47282/100033480_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH032",
+    "name": "New Balance Fresh Foam 1080v13",
+    "color": "Light Aluminum/Peony",
+    "price": 149.99,
+    "productDetails": [
+      "The New Balance Fresh Foam 1080v13 offers plush cushioning and a comfortable fit.",
+      "Fresh Foam midsole for a responsive and cushioned ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Kids",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "kids-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/gs327fe_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH033",
+    "name": "Nike Air Zoom Pegasus 40",
+    "color": "Laser Orange/Black",
+    "price": 119.99,
+    "productDetails": [
+      "The Nike Air Zoom Pegasus 40 is a versatile running shoe suitable for various terrains.",
+      "Zoom Air cushioning in the forefoot for responsive comfort.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH034",
+    "name": "Adidas Superstar 03",
+    "color": "White/Blue",
+    "price": 89.99,
+    "productDetails": [
+      "The Adidas Superstar 03 is an iconic sneaker with classic shell toe styling.",
+      "Full-grain leather upper for durability.",
+      "Rubber cupsole for excellent grip."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH035",
+    "name": "Reebok Nano X3",
+    "color": "Black/Neon Green",
+    "price": 119.99,
+    "productDetails": [
+      "The Reebok Nano X3 is a versatile training shoe designed for cross-training activities.",
+      "Flexweave upper for flexibility and support.",
+      "Floatride Energy Foam midsole for responsive cushioning."
+    ],
+    "gender": "Men",
+    "category": "Training",
+    "brand": "Reebok",
+    "image": "men-reebok-training.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/5664b2ca-d326-4249-86f3-2521eadfb71e/100033318_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH036",
+    "name": "New Balance 990v7",
+    "color": "Navy/Silver",
+    "price": 174.99,
+    "productDetails": [
+      "The New Balance 990v7 is a classic and comfortable running shoe with premium materials.",
+      "Pigskin suede and mesh upper for a premium look and feel.",
+      "ENCAP midsole technology for support and durability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "men-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/mtgarolg_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH037",
+    "name": "Nike Air Force 3",
+    "color": "White/White",
+    "price": 89.99,
+    "productDetails": [
+      "The Nike Air Force 3 is an iconic shoe known for its clean and versatile design.",
+      "Genuine leather upper for a classic look and feel.",
+      "Air-Sole unit in the heel for cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Nike",
+    "image": "men-nike-lifestyle.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/10f5e3ab-4389-4403-a072-1898420cf279/air-trainer-1-mens-shoes-0vx2ft.png"
+  },
+  {
+    "productCode": "SH038",
+    "name": "Adidas NMD_R3",
+    "color": "Core Black/Red",
+    "price": 129.99,
+    "productDetails": [
+      "The Adidas NMD_R3 features a modern design and comfortable Boost cushioning.",
+      "Stretchy mesh upper for a sock-like fit.",
+      "Full-length Boost midsole for energy return."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH039",
+    "name": "Reebok Zig Kinetica 03",
+    "color": "Solar Yellow/Black",
+    "price": 99.99,
+    "productDetails": [
+      "The Reebok Zig Kinetica 03 offers responsive cushioning and a unique design.",
+      "Zig Energy Shell technology for shock absorption.",
+      "Textile upper with supportive overlays."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Reebok",
+    "image": "men-reebok-running.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/75e409d4-b189-4117-b258-eb9562b3dc95/100044854_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH040",
+    "name": "New Balance 5743",
+    "color": "Grey/Blue",
+    "price": 69.99,
+    "productDetails": [
+      "The New Balance 5744 is a classic sneaker with a retro look and comfortable fit.",
+      "Suede and mesh upper for a classic appearance.",
+      "ENCAP midsole cushioning for all-day comfort."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "New Balance",
+    "image": "men-newbalance-lifestyle.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/m2002ran_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH041",
+    "name": "Nike React Infinity Run Flyknit 03",
+    "color": "Barely Rose/Black",
+    "price": 159.99,
+    "productDetails": [
+      "The Nike React Infinity Run Flyknit 03 is designed for maximum cushioning and support.",
+      "Flyknit upper for a snug and supportive fit.",
+      "React foam cushioning for a responsive ride."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "women-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab8cccef-30d9-48cd-99ea-8e72647744f2/vomero-16-premium-womens-road-running-shoes-ZqXmjz.png"
+  },
+  {
+    "productCode": "SH042",
+    "name": "Adidas Stan Smith 02",
+    "color": "White/Green",
+    "price": 79.99,
+    "productDetails": [
+      "The Adidas Stan Smith 02 is a timeless tennis shoe known for its minimalist style.",
+      "Smooth full-grain leather upper for a clean look.",
+      "Perforated 3-Stripes and rubber cupsole."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH043",
+    "name": "Reebok Club C 86",
+    "color": "Chalk/Black",
+    "price": 74.99,
+    "productDetails": [
+      "The Reebok Club C 86 is a classic court shoe with a clean and retro design.",
+      "Soft leather upper for comfort and style.",
+      "EVA midsole for cushioning."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "women-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/2dc3bfff-eaf7-4b31-b160-30e72abdd9fb/100033392_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH044",
+    "name": "New Balance Fresh Foam Beacon v4",
+    "color": "Light Cyclone/Peony",
+    "price": 109.99,
+    "productDetails": [
+      "The New Balance Fresh Foam Beacon v4 is a lightweight and comfortable running shoe.",
+      "Fresh Foam midsole for a cushioned and smooth ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH045",
+    "name": "Nike Free RN 5.1",
+    "color": "Laser Crimson/Black",
+    "price": 99.99,
+    "productDetails": [
+      "The Nike Free RN 5.1 is a minimalist running shoe designed for natural movement.",
+      "Stretchy fabric upper for a flexible and comfortable fit.",
+      "Lightweight foam midsole for a barefoot-like feel."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH046",
+    "name": "Adidas Yeezy Boost 350 V3",
+    "color": "Zebra",
+    "price": 219.99,
+    "productDetails": [
+      "The Adidas Yeezy Boost 350 V3 is a highly sought-after sneaker designed by Kanye West.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Boost cushioning for responsive comfort."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH047",
+    "name": "Reebok Classic Nylon 02",
+    "color": "Black/White",
+    "price": 64.99,
+    "productDetails": [
+      "The Reebok Classic Nylon 02 is a retro-inspired sneaker with a comfortable feel.",
+      "Nylon and suede upper for durability and style.",
+      "EVA midsole for lightweight cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "men-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/090b2897-04a1-43c0-b37c-de2cf8a946ea/100043526_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH048",
+    "name": "New Balance 990v8",
+    "color": "Grey/Castlerock",
+    "price": 174.99,
+    "productDetails": [
+      "The New Balance 990v8 is a classic and comfortable running shoe with premium materials.",
+      "Pigskin suede and mesh upper for a premium look and feel.",
+      "ENCAP midsole technology for support and durability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH049",
+    "name": "Nike Air Zoom Pegasus 41",
+    "color": "Black/Anthracite",
+    "price": 119.99,
+    "productDetails": [
+      "The Nike Air Zoom Pegasus 41 is a versatile running shoe suitable for various terrains.",
+      "Zoom Air cushioning in the forefoot for responsive comfort.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH050",
+    "name": "Adidas Ultraboost 23",
+    "color": "Cloud White/Silver Metallic",
+    "price": 179.99,
+    "productDetails": [
+      "The Adidas Ultraboost 23 offers enhanced cushioning and responsiveness for long runs.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Boost cushioning for energy return."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Adidas",
+    "image": "women-adidas-running.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b44c76086ac64959b99ee9eb0b5dd051_9366/ULTRABOOST_LIGHT_W_Grey_IE1745_HM4.jpg"
+  },
+  {
+    "productCode": "SH051",
+    "name": "Reebok Nano X4",
+    "color": "Black/Neon Red",
+    "price": 119.99,
+    "productDetails": [
+      "The Reebok Nano X4 is a versatile training shoe designed for cross-training activities.",
+      "Flexweave upper for flexibility and support.",
+      "Floatride Energy Foam midsole for responsive cushioning."
+    ],
+    "gender": "Women",
+    "category": "Training",
+    "brand": "Reebok",
+    "image": "women-reebok-training.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/7e6326b5-35af-4df1-b33b-ebf513fa27c9/100069906_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH052",
+    "name": "New Balance Fresh Foam 1080v14",
+    "color": "Guava/White",
+    "price": 149.99,
+    "productDetails": [
+      "The New Balance Fresh Foam 1080v14 offers plush cushioning and a comfortable fit.",
+      "Fresh Foam midsole for a cushioned and smooth ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH053",
+    "name": "Nike Air Force 4",
+    "color": "Black/Black",
+    "price": 89.99,
+    "productDetails": [
+      "The Nike Air Force 4 is an iconic shoe known for its clean and versatile design.",
+      "Genuine leather upper for a classic look and feel.",
+      "Air-Sole unit in the heel for cushioning."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Nike",
+    "image": "women-nike-lifestyle.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/df4e7d53-7140-4efe-9abd-c0e63489e7f3/air-max-solo-womens-shoes-DTkz6b.png"
+  },
+  {
+    "productCode": "SH054",
+    "name": "Adidas NMD_R4",
+    "color": "Core Black/Pink",
+    "price": 129.99,
+    "productDetails": [
+      "The Adidas NMD_R4 features a modern design and comfortable Boost cushioning.",
+      "Stretchy mesh upper for a sock-like fit.",
+      "Full-length Boost midsole for energy return."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "women-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bd8ddf3c4c1646da88346b591db45f7b_9366/Avryn_Shoes_Burgundy_IG0649_01_standard.jpg"
+  },
+  {
+    "productCode": "SH055",
+    "name": "Reebok Zig Kinetica 04",
+    "color": "White/Black/Red",
+    "price": 99.99,
+    "productDetails": [
+      "The Reebok Zig Kinetica 04 offers responsive cushioning and a unique design.",
+      "Zig Energy Shell technology for shock absorption.",
+      "Textile upper with supportive overlays."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Reebok",
+    "image": "women-reebok-running.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/0f574cd2-01c7-4905-9e16-c509d28dbc6a/100046743_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH056",
+    "name": "New Balance 5745",
+    "color": "Black/White",
+    "price": 69.99,
+    "productDetails": [
+      "The New Balance 5745 is a classic sneaker with a retro look and comfortable fit.",
+      "Suede and mesh upper for a classic appearance.",
+      "ENCAP midsole cushioning for all-day comfort."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "New Balance",
+    "image": "women-newbalance-lifestyle.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wl574evn_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600"
+  },
+  {
+    "productCode": "SH057",
+    "name": "Nike React Infinity Run Flyknit 04",
+    "color": "Black/White",
+    "price": 159.99,
+    "productDetails": [
+      "The Nike React Infinity Run Flyknit 04 is designed for maximum cushioning and support.",
+      "Flyknit upper for a snug and supportive fit.",
+      "React foam cushioning for a responsive ride."
+    ],
+    "gender": "Kids",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "kids-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8076d4ae-6693-46dd-a66f-fbc9ab86641f/air-zoom-pegasus-40-pr-big-kids-road-running-shoes-btV5l8.png"
+  },
+  {
+    "productCode": "SH058",
+    "name": "Adidas Superstar 04",
+    "color": "White/Gold",
+    "price": 89.99,
+    "productDetails": [
+      "The Adidas Superstar 04 is an iconic sneaker with classic shell toe styling.",
+      "Full-grain leather upper for durability.",
+      "Rubber cupsole for excellent grip."
+    ],
+    "gender": "Kids",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "kids-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a37a64c6cbc468f8c45ab170128e82b_9366/OZWEEGO_Shoes_White_EF6299_01_standard.jpg"
+  },
+  {
+    "productCode": "SH059",
+    "name": "Reebok Classic Leather 03",
+    "color": "White/Gum",
+    "price": 79.99,
+    "productDetails": [
+      "The Reebok Classic Leather 03 is a timeless shoe known for its clean and simple design.",
+      "Soft leather upper for comfort and style.",
+      "EVA midsole for lightweight cushioning."
+    ],
+    "gender": "Kids",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "kids-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/d7f48e42-2aad-4b0f-9879-ed6aaec47282/100033480_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH060",
+    "name": "New Balance Fresh Foam 1080v15",
+    "color": "Light Aluminum/Peony",
+    "price": 149.99,
+    "productDetails": [
+      "The New Balance Fresh Foam 1080v15 offers plush cushioning and a comfortable fit.",
+      "Fresh Foam midsole for a responsive and cushioned ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Kids",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "kids-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/gs327fe_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH061",
+    "name": "Nike Air Zoom Pegasus 42",
+    "color": "Laser Orange/Black",
+    "price": 119.99,
+    "productDetails": [
+      "The Nike Air Zoom Pegasus 42 is a versatile running shoe suitable for various terrains.",
+      "Zoom Air cushioning in the forefoot for responsive comfort.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH062",
+    "name": "Adidas Superstar 05",
+    "color": "White/Blue",
+    "price": 89.99,
+    "productDetails": [
+      "The Adidas Superstar 05 is an iconic sneaker with classic shell toe styling.",
+      "Full-grain leather upper for durability.",
+      "Rubber cupsole for excellent grip."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH063",
+    "name": "Reebok Nano X5",
+    "color": "Black/Neon Green",
+    "price": 119.99,
+    "productDetails": [
+      "The Reebok Nano X5 is a versatile training shoe designed for cross-training activities.",
+      "Flexweave upper for flexibility and support.",
+      "Floatride Energy Foam midsole for responsive cushioning."
+    ],
+    "gender": "Men",
+    "category": "Training",
+    "brand": "Reebok",
+    "image": "men-reebok-training.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/5664b2ca-d326-4249-86f3-2521eadfb71e/100033318_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH064",
+    "name": "New Balance 990v9",
+    "color": "Navy/Silver",
+    "price": 174.99,
+    "productDetails": [
+      "The New Balance 990v9 is a classic and comfortable running shoe with premium materials.",
+      "Pigskin suede and mesh upper for a premium look and feel.",
+      "ENCAP midsole technology for support and durability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "men-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/mtgarolg_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH065",
+    "name": "Nike Air Force 5",
+    "color": "White/White",
+    "price": 89.99,
+    "productDetails": [
+      "The Nike Air Force 5 is an iconic shoe known for its clean and versatile design.",
+      "Genuine leather upper for a classic look and feel.",
+      "Air-Sole unit in the heel for cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Nike",
+    "image": "men-nike-lifestyle.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/10f5e3ab-4389-4403-a072-1898420cf279/air-trainer-1-mens-shoes-0vx2ft.png"
+  },
+  {
+    "productCode": "SH066",
+    "name": "Adidas NMD_R5",
+    "color": "Core Black/Red",
+    "price": 129.99,
+    "productDetails": [
+      "The Adidas NMD_R5 features a modern design and comfortable Boost cushioning.",
+      "Stretchy mesh upper for a sock-like fit.",
+      "Full-length Boost midsole for energy return."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH067",
+    "name": "Reebok Zig Kinetica 05",
+    "color": "Solar Yellow/Black",
+    "price": 99.99,
+    "productDetails": [
+      "The Reebok Zig Kinetica 05 offers responsive cushioning and a unique design.",
+      "Zig Energy Shell technology for shock absorption.",
+      "Textile upper with supportive overlays."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Reebok",
+    "image": "men-reebok-running.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/75e409d4-b189-4117-b258-eb9562b3dc95/100044854_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH068",
+    "name": "New Balance 5746",
+    "color": "Grey/Blue",
+    "price": 69.99,
+    "productDetails": [
+      "The New Balance 5746 is a classic sneaker with a retro look and comfortable fit.",
+      "Suede and mesh upper for a classic appearance.",
+      "ENCAP midsole cushioning for all-day comfort."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "New Balance",
+    "image": "men-newbalance-lifestyle.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/m2002ran_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH069",
+    "name": "Nike React Infinity Run Flyknit 05",
+    "color": "Barely Rose/Black",
+    "price": 159.99,
+    "productDetails": [
+      "The Nike React Infinity Run Flyknit 05 is designed for maximum cushioning and support.",
+      "Flyknit upper for a snug and supportive fit.",
+      "React foam cushioning for a responsive ride."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "women-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab8cccef-30d9-48cd-99ea-8e72647744f2/vomero-16-premium-womens-road-running-shoes-ZqXmjz.png"
+  },
+  {
+    "productCode": "SH070",
+    "name": "Adidas Stan Smith 03",
+    "color": "White/Green",
+    "price": 79.99,
+    "productDetails": [
+      "The Adidas Stan Smith 03 is a timeless tennis shoe known for its minimalist style.",
+      "Smooth full-grain leather upper for a clean look.",
+      "Perforated 3-Stripes and rubber cupsole."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH071",
+    "name": "Reebok Club C 87",
+    "color": "Chalk/Black",
+    "price": 74.99,
+    "productDetails": [
+      "The Reebok Club C 87 is a classic court shoe with a clean and retro design.",
+      "Soft leather upper for comfort and style.",
+      "EVA midsole for cushioning."
+    ],
+    "gender": "Women",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "women-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/2dc3bfff-eaf7-4b31-b160-30e72abdd9fb/100033392_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH072",
+    "name": "New Balance Fresh Foam Beacon v5",
+    "color": "Light Cyclone/Peony",
+    "price": 109.99,
+    "productDetails": [
+      "The New Balance Fresh Foam Beacon v5 is a lightweight and comfortable running shoe.",
+      "Fresh Foam midsole for a cushioned and smooth ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH073",
+    "name": "Nike Free RN 5.2",
+    "color": "Laser Crimson/Black",
+    "price": 99.99,
+    "productDetails": [
+      "The Nike Free RN 5.2 is a minimalist running shoe designed for natural movement.",
+      "Stretchy fabric upper for a flexible and comfortable fit.",
+      "Lightweight foam midsole for a barefoot-like feel."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH074",
+    "name": "Adidas Yeezy Boost 350 V4",
+    "color": "Zebra",
+    "price": 219.99,
+    "productDetails": [
+      "The Adidas Yeezy Boost 350 V4 is a highly sought-after sneaker designed by Kanye West.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Boost cushioning for responsive comfort."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Adidas",
+    "image": "men-adidas-lifestyle.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/069375869e2b4fe0960aaf5700b61636_9366/NMD_R1_Shoes_Blue_HQ4450_01_standard.jpg"
+  },
+  {
+    "productCode": "SH075",
+    "name": "Reebok Classic Nylon 03",
+    "color": "Black/White",
+    "price": 64.99,
+    "productDetails": [
+      "The Reebok Classic Nylon 03 is a retro-inspired sneaker with a comfortable feel.",
+      "Nylon and suede upper for durability and style.",
+      "EVA midsole for lightweight cushioning."
+    ],
+    "gender": "Men",
+    "category": "Lifestyle",
+    "brand": "Reebok",
+    "image": "men-reebok-lifestyle.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/090b2897-04a1-43c0-b37c-de2cf8a946ea/100043526_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH076",
+    "name": "New Balance 990v10",
+    "color": "Grey/Castlerock",
+    "price": 174.99,
+    "productDetails": [
+      "The New Balance 990v10 is a classic and comfortable running shoe with premium materials.",
+      "Pigskin suede and mesh upper for a premium look and feel.",
+      "ENCAP midsole technology for support and durability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  },
+  {
+    "productCode": "SH077",
+    "name": "Nike Air Zoom Pegasus 43",
+    "color": "Black/Anthracite",
+    "price": 119.99,
+    "productDetails": [
+      "The Nike Air Zoom Pegasus 43 is a versatile running shoe suitable for various terrains.",
+      "Zoom Air cushioning in the forefoot for responsive comfort.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Men",
+    "category": "Running",
+    "brand": "Nike",
+    "image": "men-nike-running.jpg",
+    "imageLink": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3069fbaa-194e-4641-9990-fe47451f75ee/kiger-9-mens-trail-running-shoes-TjtXhk.png"
+  },
+  {
+    "productCode": "SH078",
+    "name": "Adidas Ultraboost 24",
+    "color": "Cloud White/Silver Metallic",
+    "price": 179.99,
+    "productDetails": [
+      "The Adidas Ultraboost 24 offers enhanced cushioning and responsiveness for long runs.",
+      "Primeknit upper for a snug and supportive fit.",
+      "Boost cushioning for energy return."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "Adidas",
+    "image": "women-adidas-running.jpg",
+    "imageLink": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b44c76086ac64959b99ee9eb0b5dd051_9366/ULTRABOOST_LIGHT_W_Grey_IE1745_HM4.jpg"
+  },
+  {
+    "productCode": "SH079",
+    "name": "Reebok Nano X6",
+    "color": "Black/Neon Red",
+    "price": 119.99,
+    "productDetails": [
+      "The Reebok Nano X6 is a versatile training shoe designed for cross-training activities.",
+      "Flexweave upper for flexibility and support.",
+      "Floatride Energy Foam midsole for responsive cushioning."
+    ],
+    "gender": "Women",
+    "category": "Training",
+    "brand": "Reebok",
+    "image": "women-reebok-training.jpg",
+    "imageLink": "https://reebok.bynder.com/transform/7e6326b5-35af-4df1-b33b-ebf513fa27c9/100069906_SLC_eCom-tif?io=transform:fit,width:1000&quality=100"
+  },
+  {
+    "productCode": "SH080",
+    "name": "New Balance Fresh Foam 1080v16",
+    "color": "Guava/White",
+    "price": 149.99,
+    "productDetails": [
+      "The New Balance Fresh Foam 1080v16 offers plush cushioning and a comfortable fit.",
+      "Fresh Foam midsole for a cushioned and smooth ride.",
+      "Engineered mesh upper for breathability."
+    ],
+    "gender": "Women",
+    "category": "Running",
+    "brand": "New Balance",
+    "image": "women-newbalance-running.jpg",
+    "imageLink": "https://nb.scene7.com/is/image/NB/wariscm4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=jpg&wid=880&hei=880"
+  }
+]

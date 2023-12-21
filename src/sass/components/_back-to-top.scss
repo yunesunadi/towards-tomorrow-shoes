@@ -8,9 +8,9 @@
     right: rem(20);
     font-size: rem(15);
     color: color("secondary");
-    background-color: darken(color("light-grey"), 40);
+    background-color: color("light-grey");
     border-radius: rem(5);
-    border: rem(2) solid color("secondary");
+    border: rem(1.5) solid rgba(color("secondary"), .5);
     padding: rem(3) rem(8);
 
     @include media-query("medium") {
